@@ -2573,7 +2573,7 @@ a.asg-btn, .asg-btn {
   position: relative;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header {
     height: 90px;
   }
@@ -2583,7 +2583,7 @@ a.asg-btn, .asg-btn {
   width: 180px;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__link {
     width: 270px;
   }
@@ -2612,7 +2612,7 @@ a.asg-btn, .asg-btn {
   background-size: 36px;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__menu-btn {
     display: none;
   }
@@ -2632,7 +2632,7 @@ a.asg-btn, .asg-btn {
   display: block;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__menu {
     margin: 0 0 0 auto;
     display: block;
@@ -2651,7 +2651,7 @@ a.asg-btn, .asg-btn {
   list-style: none;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__menu-list {
     height: 100%;
   }
@@ -2665,14 +2665,14 @@ a.asg-btn, .asg-btn {
   border-bottom: 1px solid #a28300;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__menu-item:not(:last-child) {
     border: none;
     margin-right: 30px;
   }
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__menu-item {
     display: inline-block;
     float: left;
@@ -2692,7 +2692,7 @@ a.asg-btn, .asg-btn {
   background-color: #ffc900;
 }
 
-@media (min-width: 840px) {
+@media (min-width: 933px) {
   .header__menu-link {
     font-size: 18px;
     height: 100%;
@@ -2700,4 +2700,16 @@ a.asg-btn, .asg-btn {
     background: transparent;
     line-height: 55px;
   }
+}
+
+.logo path {
+  opacity: 0;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.logo path.active {
+  opacity: 1;
+  -webkit-transition: 300ms;
+  transition: 300ms;
 }
