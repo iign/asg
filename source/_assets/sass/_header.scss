@@ -1,0 +1,122 @@
+$header-height: 60px;
+$header-height-desktop: 90px;
+$min-width: 'min-width: 840px';
+
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header {
+  height: $header-height;
+  background-color: $color-brand-one;
+  color: $color-body;
+  position: relative;
+
+  @media ($min-width) {
+    height: $header-height-desktop;
+  }
+
+  
+  &__link {
+    width: 180px;
+    @media ($min-width) {
+      width: 270px;
+    }
+    .logo { width: 100%; height: auto; }
+  }
+
+  &__menu-btn {
+    @extend %hide-text;
+    border: none;
+    background: $color-brand-four;
+    align-self: flex-end;
+    position: absolute;
+    width: $header-height;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    background-image: url(../../images/menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    @media ($min-width) {
+      display: none;
+    }
+  }
+
+  &__menu {
+    display: none;
+    position: fixed;
+    top: $header-height;
+    right: 0;
+    max-width: 50%;
+    overflow: auto;
+    max-height: calc(100% - #{$header-height});
+
+    &.active {
+      display: block;
+    }
+
+    @media ($min-width) {
+      margin: 0 0 0 auto;
+      display: block;
+      position: relative;
+      top: unset;
+      left: unset;
+      max-width: unset;
+      max-height: 100%;
+      height: 100%;
+    }
+  }
+
+  &__menu-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    @media ($min-width) { 
+      height: 100%;
+    }
+  }
+
+  &__menu-item {
+    width: 100%;
+    &:not(:last-child) {
+      border-bottom: 1px solid #a28300;
+      @media ($min-width) { 
+        border: none;
+        margin-right: 30px;
+      }
+    }
+    @media ($min-width) { 
+      display: inline-block;
+      float: left;
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  &__menu-link {
+    text-decoration: none;
+    color: $color-body;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 15px 10px;
+    background-color: $color-brand-four;
+    @media ($min-width) { 
+      font-size: 18px;
+      height: 100%;
+      background: none;
+      background: transparent;
+      line-height: 55px;
+    }
+  }
+
+}
+

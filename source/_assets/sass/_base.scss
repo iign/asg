@@ -1,0 +1,34 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: $color-body;
+  background: $color-body;
+}
+
+a.asg-btn, .asg-btn {
+  background-color: $color-brand-two;
+  border-bottom: 20px solid $color-body;
+  border-left: 8px solid $color-brand-four;
+  border-right: 8px solid $color-grey;
+}
+
+.container{
+  position: relative;
+  padding: 0 16px;
+  max-width: 1114px;
+  margin: 0 auto;
+  @media ($desktopHD) {
+    padding: 0;
+  }
+}
