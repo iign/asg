@@ -11,14 +11,28 @@
         <header class="header">
           
           <div class="container header-flex">
-            <a href="/" class="header__link">
+            <a href="/" class="header__logo-link">
               @include('_partials/logo')
             </a>
           
             <div class="header__menu">
-              <ul class="header__menu-list">
-                <li class="header__menu-item">
-                  <a href="#" class="header__menu-link">Services</a>
+              <ul class="header__menu-list" role="menu">
+                <li class="header__menu-item header__menu-item--services">
+                  <span class="header__menu-link ">Services</span>
+                  <ul class="header__menu-sub">
+                    <li>
+                      <a href="#" class="header__menu-link header__menu-link--services">Production &amp; Coordination</a>
+                    </li>
+                    <li>
+                      <a href="#" class="header__menu-link header__menu-link--services">Consulting</a>
+                    </li>
+                    <li>
+                      <a href="#" class="header__menu-link header__menu-link--services">Content Development</a>
+                    </li>
+                    <li>
+                      <a href="#" class="header__menu-link header__menu-link--services">Visualization</a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="header__menu-item">
                   <a href="#" class="header__menu-link">Projects</a>

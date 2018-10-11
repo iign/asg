@@ -10450,10 +10450,10 @@ $('.js-toggle-menu').on('click', function () {
 
 $(function () {
 
-  setTimeout(reveal, 500);
+  setTimeout(revealLogo, 500);
 });
 
-function reveal() {
+function revealLogo() {
   $list = $('.logo path');
   $list.sort(function () {
     return 0.5 - Math.random();
@@ -10465,7 +10465,7 @@ function reveal() {
 
     (function (index) {
       setTimeout(function () {
-        console.log(index);
+
         $($list[index]).addClass('active');
       }, Math.floor(Math.random() * 1000));
     })(index);

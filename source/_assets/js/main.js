@@ -8,30 +8,26 @@ $('.js-toggle-menu').on('click', function () {
 
 $(function() {
 
-  setTimeout(reveal, 500)
-  
-
+  setTimeout(revealLogo, 500)
 
 
 })
 
 
-function reveal() {
+function revealLogo() {
   $list = $('.logo path')
   $list.sort(function() { return 0.5 - Math.random() })
 
-  var random = Math.floor(Math.random()*13);
+  var random = Math.floor(Math.random()*13)
 
   for (let index = 0; index < $list.length; index++) {
 
     (function(index) {
       setTimeout(function () {
-        console.log(index)
+
         $($list[index]).addClass('active')
       }, Math.floor(Math.random() * 1000))
-    })(index);
-    
-    
+    })(index)
     
   }
 }

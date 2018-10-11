@@ -2533,7 +2533,6 @@ body {
   padding: 0;
   overflow-x: hidden;
   color: #1d1d1b;
-  background: #1d1d1b;
 }
 
 a.asg-btn, .asg-btn {
@@ -2557,13 +2556,13 @@ a.asg-btn, .asg-btn {
 }
 
 .header-flex {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
 }
 
 .header {
@@ -2624,7 +2623,6 @@ a.asg-btn, .asg-btn {
   top: 60px;
   right: 0;
   max-width: 50%;
-  overflow: auto;
   max-height: calc(100% - 60px);
 }
 
@@ -2637,24 +2635,65 @@ a.asg-btn, .asg-btn {
     margin: 0 0 0 auto;
     display: block;
     position: relative;
+    z-index: 100;
     top: unset;
     left: unset;
     max-width: unset;
-    max-height: 100%;
-    height: 100%;
+    max-height: unset;
   }
 }
 
-.header__menu-list {
+.header__menu-sub {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 @media (min-width: 933px) {
-  .header__menu-list {
-    height: 100%;
+  .header__menu-sub {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    border-top: 1px solid #a28300;
   }
+  .header__menu-sub .header__menu-link {
+    background: #F39200;
+    text-align: left;
+    border-bottom: 1px solid #a28300;
+    height: unset;
+    line-height: 40px;
+  }
+}
+
+.header__menu-sub .header__menu-item {
+  float: none;
+}
+
+.header__menu-item--services {
+  cursor: pointer;
+  position: relative;
+}
+
+@media (min-width: 933px) {
+  .header__menu-item--services {
+    background-image: url(../../images/menu-arr.svg);
+    background-repeat: no-repeat;
+    background-position: right 36px;
+    background-size: 15px 15px;
+    padding-right: 21px;
+  }
+}
+
+.header__menu-item--services:hover .header__menu-sub {
+  display: block;
+}
+
+.header__menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .header__menu-item {
@@ -2677,7 +2716,6 @@ a.asg-btn, .asg-btn {
     display: inline-block;
     float: left;
     width: auto;
-    height: 100%;
   }
 }
 
@@ -2695,10 +2733,13 @@ a.asg-btn, .asg-btn {
 @media (min-width: 933px) {
   .header__menu-link {
     font-size: 18px;
-    height: 100%;
+    height: 90px;
     background: none;
     background: transparent;
     line-height: 55px;
+  }
+  .header__menu-link:hover {
+    text-decoration: underline;
   }
 }
 

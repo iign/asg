@@ -4,9 +4,9 @@ $min-width: 'min-width: 933px';
 
 
 .header-flex {
+  height: 100%;
   display: flex;
   align-items: center;
-  height: 100%;
 }
 
 .header {
@@ -55,7 +55,6 @@ $min-width: 'min-width: 933px';
     top: $header-height;
     right: 0;
     max-width: 50%;
-    overflow: auto;
     max-height: calc(100% - #{$header-height});
 
     &.active {
@@ -66,21 +65,65 @@ $min-width: 'min-width: 933px';
       margin: 0 0 0 auto;
       display: block;
       position: relative;
+      z-index: 100;
       top: unset;
       left: unset;
       max-width: unset;
-      max-height: 100%;
-      height: 100%;
+      max-height: unset;
     }
   }
+
+  &__menu-sub {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    @media ($min-width) {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      min-width: 250px;
+      border-top: 1px solid #a28300;
+
+      .header__menu-link{
+        background: $color-brand-one;
+        text-align: left;
+        border-bottom: 1px solid #a28300;
+        height: unset;
+        line-height: 40px;
+      }
+    }
+
+    .header__menu-item {
+      float: none;
+    }
+  }
+
+  &__menu-item--services {
+    cursor: pointer;
+    position: relative;
+
+    @media ($min-width) { 
+      background-image: url(../../images/menu-arr.svg);
+      background-repeat: no-repeat;
+      background-position: right 36px;
+      background-size: 15px 15px;
+      padding-right: 21px;
+    }
+
+
+    &:hover .header__menu-sub {
+      display: block;
+    }
+  }
+
+ 
 
   &__menu-list {
     margin: 0;
     padding: 0;
     list-style: none;
-    @media ($min-width) { 
-      height: 100%;
-    }
   }
 
   &__menu-item {
@@ -96,7 +139,7 @@ $min-width: 'min-width: 933px';
       display: inline-block;
       float: left;
       width: auto;
-      height: 100%;
+      
     }
   }
 
@@ -111,16 +154,17 @@ $min-width: 'min-width: 933px';
     background-color: $color-brand-four;
     @media ($min-width) { 
       font-size: 18px;
-      height: 100%;
+      height: $header-height-desktop;
       background: none;
       background: transparent;
       line-height: 55px;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
 }
-
-
 
 // .logo {
 //   path {
