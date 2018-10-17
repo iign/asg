@@ -2754,3 +2754,9 @@ a.asg-btn, .asg-btn {
   -webkit-transition: 300ms;
   transition: 300ms;
 }
+
+.hero {
+  min-height: calc(100vh - 60px);
+  padding: 30px;
+  background-color: #ABABAB;
+}

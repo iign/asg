@@ -1,0 +1,5 @@
+.hero {
+  min-height: calc(100vh - #{$header-height});
+  padding: 30px;
+  background-color: #ABABAB;
+}

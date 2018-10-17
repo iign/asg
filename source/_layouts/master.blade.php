@@ -54,6 +54,47 @@
           
           <button class="header__menu-btn js-toggle-menu">Menu</button>
         </header>
+        
+        @include('_partials/hero')
+
+        <section class="band">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                DO YOU STRUGGLE WITH YOUR PROJECT DELIVERIES?
+              </div>
+              <div class="col-sm">
+                <div class="row">
+                  <div class="col-md-6">
+                    TOO MUCH WORK AND NO HANDS?
+                  </div>
+                  <div class="col-md-6">
+                    Burn-out by deadlines?
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    Not using BIM to its full capacity to streamline production?
+                  </div>
+                  <div class="col-md-6">
+                    Hiring new team members consumes too much time and money in training?
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    Long hours at the office to finish projects?
+                  </div>
+                  <div class="col-md-6">
+                    YOUR FIRM'S BOTTOM LINE DEPENDS ON THE TIMELY MANNER YOU 
+                    DEVELOP YOUR CONSTRUCTION DOCUMENTS?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         @yield('body')
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
