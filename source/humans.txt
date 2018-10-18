@@ -1,0 +1,13 @@
+/* TEAM */
+Developer: Nacho Toledo
+Contact: ignacio [at] ign.uy
+Site: https://ign.uy
+Site: https://montag.uy
+Twitter: @iign
+
+Designer: Atolón de Mororoa
+Site: http://atolondemororoa.com
+
+                            
+/* SITE */
+Software: PHP, Jigsaw, Sass
