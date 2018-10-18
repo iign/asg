@@ -10440,8 +10440,11 @@ return jQuery;
 /***/ "./source/_assets/js/main.js":
 /***/ (function(module, exports, __webpack_require__) {
 
-console.log('Main!');
+//console.log('%cBuilt by %cm • n t a g', 'font-size: 12px', 'font-family: Poppins, sans-serif; font-size: 16px; font-weight: bold; color: #FF4455; padding: 2px 6px; border-radius: 2px')
+//console.log('🔗 https://montag.uy')
 window.$ = window.jQuery = __webpack_require__("./node_modules/jquery/dist/jquery.js");
+
+console.log('%c💡 Crafted with ♥️ by https://ign.uy', 'font-size: 14px; padding: 8px 0; font-family: Poppins, sans-serif;');
 
 $('.js-toggle-menu').on('click', function () {
   $('.header__menu').toggleClass('active');

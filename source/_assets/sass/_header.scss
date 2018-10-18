@@ -1,4 +1,4 @@
-$min-width: 'min-width: 933px';
+$min-width: 'min-width: 950px';
 
 .header-flex {
   height: 100%;
@@ -10,15 +10,19 @@ $min-width: 'min-width: 933px';
   height: $header-height;
   background-color: $color-brand-one;
   color: $color-body;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 90;
 
   @media ($min-width) {
     height: $header-height-desktop;
   }
 
   
-  &__link {
-    width: 180px;
+  &__logo-link {
+    width: 220px;
     @media ($min-width) {
       width: 270px;
     }
