@@ -1,4 +1,4 @@
-$min-width: 'min-width: 950px';
+$min-width: 'min-width: 960px';
 
 .header-flex {
   height: 100%;
@@ -55,8 +55,14 @@ $min-width: 'min-width: 950px';
     position: fixed;
     top: $header-height;
     right: 0;
-    max-width: 50%;
-    max-height: calc(100% - #{$header-height});
+    max-width: 90%;
+    min-width: 260px;
+    max-height: calc(100vh - #{$header-height});
+    overflow-y: scroll;
+    @media ($min-width) {
+      overflow-y: auto;
+    }
+    -webkit-overflow-scrolling: touch;
 
     &.active {
       display: block;

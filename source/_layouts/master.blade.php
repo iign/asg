@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,500,500i,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400,400i,500,500i,700,800" rel="stylesheet">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="author" href="humans.txt" />
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
@@ -107,11 +107,31 @@
                 </div>
               </div>
 
-
             </div>
           </div>
         </section>
 
+        <section class="band band-black">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <img class="asg" src="assets/images/asg.svg" alt="Archsourcing">
+              </div>
+              <div class="col-sm-8">
+                <div class="description">
+                  <strong>ASG</strong> IS CUTTING HIGH-TECH FIRM THAT HELPS BUSY <em>ARCHITECTS</em> TO 
+                  DEVELOP THEIR PROJECTS, DRAMATICALLY REDUCE COSTS AND STREAMLINE 
+                  PRODUCTION WITH NEXT GENERATION USE OF <em>BIM</em> TECHNOLOGY WHILE 
+                  ARCHITECTS FOCUS ON EXPANDING THEIR COMPANY AND BOOST QUALITY TIME.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        @include('_partials/project')
+        
+        @include('_partials/boxes')
 
         @yield('body')
 

@@ -1,11 +1,11 @@
 @charset 'UTF-8';
 
-// Imports and variables
 @import 'normalize';
 @import 'variables';
 @import 'helpers';
 @import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
 @import 'base';
+@import 'default';
 @import 'header';
 @import 'hero';
 @import 'footer';

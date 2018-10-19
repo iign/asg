@@ -22,82 +22,23 @@ a.asg-btn, .asg-btn {
   border-right: 8px solid $color-grey;
 }
 
-.container{
-  position: relative;
-  padding: 0 16px;
-  max-width: 1114px;
-  margin: 0 auto;
-  @media ($desktopHD) {
-    padding: 0;
+// .container{
+//   position: relative;
+//   padding: 0 16px;
+//   max-width: 1114px;
+//   margin: 0 auto;
+//   @media ($desktopHD) {
+//     padding: 0;
+//   }
+// }
+
+%asg-shadow {
+  box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
+  transition: color,background-color,box-shadow,transform,-webkit-box-shadow,-webkit-transform;
+  transition-duration: .15s;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
   }
 }
-
-.band {
-  padding: 30px 0;
-  @media ($desktop) {
-    padding: 40px 0;
-  }
-  @media ($desktopHD) {
-    padding: 60px 0;
-  }
-}
-
-.band__title {
-  color: $color-brand-two;
-  font-size: 36px;
-  line-height: 41px;
-  font-weight: bold;
-  margin: 0 0 60px;
-}
-
-.strike {
-  font-size: 24px;
-  font-weight: 700;
-  color: $color-brand-two; 
-  text-transform: uppercase;
-  display: inline-block;
-  text-decoration:line-through;
-  margin-bottom: 60px;
-
-  padding-left: 15px;
-  padding-right: 35px;
-
-  span {
-    color: $color-body;
-  }
-
-  &:before {
-    display: block;
-    position: absolute;
-    content: " ";
-    left: 15px;
-    top: 9px;
-    width: 7px;
-    height: 11px;
-    background-image: url(../../images/arr-right.svg);
-    background-size: contain;
-    background-position: center;
-  }
-
-  &:after {
-    display: block;
-    position: absolute;
-    content: " ";
-    top: 0;
-    right: 14px;
-    background-image: url(../../images/icon-tick.svg);
-    background-size: contain;
-    background-position: center;
-    width: 30px;
-    height: 30px;
-  }
-}
-
-.row-feature {
-  margin-bottom: 0;
-  @media ($desktop) {
-    margin-bottom: 60px;
-  }
-  
-}
-
