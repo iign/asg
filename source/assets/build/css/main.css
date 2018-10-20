@@ -3153,6 +3153,76 @@ a.asg-btn, .asg-btn {
   background-repeat: no-repeat;
 }
 
+.proposal {
+  background-color: #F39200;
+  color: #1d1d1b;
+}
+
+.proposal__text {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 769px) {
+  .proposal__text {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+}
+
+.proposal__col-btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-cta {
+  cursor: pointer;
+  font-size: 18px;
+  background: transparent;
+  background: none;
+  background-image: url(../../images/btn-cta.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  text-decoration: underline;
+  color: #1d1d1b;
+  font-weight: 500;
+  padding: 30px 12px;
+  min-width: 250px;
+}
+
+@media (min-width: 1114px) {
+  .btn-cta {
+    font-size: 24px;
+    padding: 30px 40px;
+  }
+}
+
+.world {
+  background-color: #ffc900;
+  color: #1d1d1b;
+  padding: 30px 0;
+}
+
+.world__text {
+  font-size: 30px;
+  font-style: italic;
+  background-image: url(../../images/icon-world.svg);
+  background-size: 25px;
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
+
+.world__text strong {
+  font-size: 500;
+}
+
 .footer {
   background: #1d1d1b;
   color: white;

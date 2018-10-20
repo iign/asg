@@ -130,12 +130,13 @@
         </section>
 
         @include('_partials/project')
-        
         @include('_partials/boxes')
-        
         @include('_partials/services')
+        @include('_partials/proposal')
+        @include('_partials/favorites')
+        @include('_partials/world')
 
-        @yield('body')
+        {{-- @yield('body') --}}
 
         @include('_partials/footer')
 

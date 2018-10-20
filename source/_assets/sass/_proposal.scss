@@ -1,0 +1,41 @@
+.proposal {
+  background-color: $color-brand-one;
+  color: $color-body;
+
+  &__text {
+    font-size: 26px;
+    margin-bottom: 30px;
+    @media ($desktop) {
+      font-size: 35px;
+      margin-bottom: 0;
+    }
+
+  }
+
+  &__col-btn {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+}
+
+.btn-cta {
+  cursor: pointer;
+  font-size: 18px;
+  background: transparent;
+  background: none;
+  background-image: url(../../images/btn-cta.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  text-decoration: underline;
+  color: $color-body;
+  font-weight: 500;
+  padding: 30px 12px;
+  min-width: 250px;
+  @media ($desktopHD) {
+    font-size: 24px;
+    padding: 30px 40px;
+  }
+}

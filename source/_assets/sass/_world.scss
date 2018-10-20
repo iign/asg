@@ -1,0 +1,19 @@
+.world {
+  background-color: $color-brand-four;
+  color: $color-body;
+  padding: 30px 0;
+
+  &__text {
+    font-size: 30px;
+    font-style: italic;
+    background-image: url(../../images/icon-world.svg);
+    background-size: 25px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+
+    strong {
+      font-size: 500;
+    }
+  }
+}
