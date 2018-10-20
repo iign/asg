@@ -132,6 +132,8 @@
         @include('_partials/project')
         
         @include('_partials/boxes')
+        
+        @include('_partials/services')
 
         @yield('body')
 

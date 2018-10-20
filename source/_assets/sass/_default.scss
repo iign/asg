@@ -14,7 +14,7 @@
   color: $color-brand-two;
   font-size: 36px;
   line-height: 41px;
-  font-weight: bold;
+  font-weight: 700;
   margin: 0 0 60px;
   text-transform: uppercase;
   @media ($desktop) {
@@ -26,6 +26,11 @@
     margin: 0;
     font-size: 28px;
   }
+}
+
+.band__subtitle {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .strike {
