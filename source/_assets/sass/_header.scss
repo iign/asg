@@ -60,7 +60,7 @@ $min-width: 'min-width: 960px';
     max-height: calc(100vh - #{$header-height});
     overflow-y: scroll;
     @media ($min-width) {
-      overflow-y: auto;
+      overflow-y: visible;
     }
     -webkit-overflow-scrolling: touch;
 
