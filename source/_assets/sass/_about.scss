@@ -1,0 +1,40 @@
+.about {
+  background-color: $color-body;
+  color: white;
+  
+  .green-arrows {
+    display: none;
+    max-width: 81px;
+    max-height: 81px;
+    &--inverted {
+      transform: rotate(180deg);
+    }
+    @media ($desktop) {
+      display: block;
+    }
+  }
+  
+  .story {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  .band__title {
+    color: $color-brand-one;
+  }
+
+  .purpose {
+    font-size: 32px;
+    font-style: italic;
+    margin-top: -8px;
+    margin-bottom: 60px;
+    
+    em {
+      color: $color-brand-two;
+    }
+  }
+}

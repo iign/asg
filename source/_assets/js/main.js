@@ -113,7 +113,7 @@ function countUp(id, end, duration) {
   (function draw() {
     requestAnimFrame(draw)
     animate()
-  })();
+  })()
 
 
 }
@@ -125,4 +125,4 @@ const map = new mapboxgl.Map({
   center: [-78.413,13.346],
   zoom: 1.4,
   'icon-allow-overlap': true
-});
+})

@@ -135,6 +135,7 @@
         @include('_partials/proposal')
         @include('_partials/favorites')
         @include('_partials/world')
+        @include('_partials/about')
 
         {{-- @yield('body') --}}
 
