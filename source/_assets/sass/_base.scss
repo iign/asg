@@ -13,6 +13,10 @@ body {
   padding: 0;
   overflow-x: hidden;
   color: $color-body;
+  padding-top: $header-height;
+  @media ($min-width) {
+    padding-top: $header-height-desktop;
+  }
 }
 
 a.asg-btn, .asg-btn {
