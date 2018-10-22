@@ -10481,7 +10481,7 @@ $(function () {
 function detectBand(e) {
   var scrollBottom = $(window).scrollTop() + $(window).height();
   if (scrollBottom >= $('.band-boxes').position().top) {
-    console.log('starting counters');
+
     countUp('box-num-1', 45, 1000);
     setTimeout(function () {
       countUp('box-num-2', 25, 1000);
@@ -10551,6 +10551,15 @@ function countUp(id, end, duration) {
     animate();
   })();
 }
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiaWlnbiIsImEiOiJJVnFnVEtVIn0.wJaGnsHUuEUoSCXvbNO9uQ';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/iign/cjnkd8riue1jf2rmmtx8sk94b',
+  center: [-78.413, 13.346],
+  zoom: 1.4,
+  'icon-allow-overlap': true
+});
 
 /***/ }),
 

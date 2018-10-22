@@ -2582,12 +2582,6 @@ a.asg-btn, .asg-btn {
   text-transform: uppercase;
 }
 
-@media (min-width: 769px) {
-  .band__title {
-    margin-bottom: 0;
-  }
-}
-
 .band__title .light {
   font-weight: 300;
   margin: 0;
@@ -3221,6 +3215,51 @@ a.asg-btn, .asg-btn {
 
 .world__text strong {
   font-size: 500;
+}
+
+.map {
+  min-height: 440px;
+  width: 100%;
+  border: 1px solid #a9a5a6;
+}
+
+.favorites .band__title {
+  margin-bottom: 60px;
+}
+
+.favorites__list {
+  color: #7d7778;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.favorites__list-item {
+  font-size: 11px;
+  margin-bottom: 1px;
+}
+
+.favorites__list-name {
+  font-weight: 500;
+  text-decoration: none;
+  color: #7d7778;
+}
+
+.favorites__list-name[href]:hover {
+  text-decoration: underline;
+}
+
+.favorites__place {
+  color: #F39200;
+  font-style: italic;
+}
+
+.marker {
+  background-image: url("../../images/marker.svg");
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
 }
 
 .footer {
