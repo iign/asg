@@ -2880,7 +2880,7 @@ a.asg-btn, .asg-btn {
 
 @media (min-width: 960px) {
   .header__menu {
-    overflow-y: auto;
+    overflow-y: visible;
   }
 }
 
