@@ -37,23 +37,9 @@ $(function() {
     window.removeEventListener("testPassive", null, opts);
   } catch (e) {}
 
-  document.addEventListener('scroll', function(e){ detectBand(e) }, supportsPassive ? { passive: true } : false)
+  //document.addEventListener('scroll', function(e){ detectBand(e) }, supportsPassive ? { passive: true } : false)
 
 })
-
-function detectBand (e) {
-  var scrollBottom = $(window).scrollTop() + $(window).height()
-  if(scrollBottom >= $('.band-boxes').position().top){
-
-    countUp('box-num-1', 45, 1000)
-    setTimeout(function() {
-      countUp('box-num-2', 25, 1000)
-    }, 500)
-    setTimeout(function() {
-      countUp('box-num-3', 65, 1000)
-    }, 900)
-  }
-}
 
 
 function revealLogo() {
@@ -73,22 +59,6 @@ function revealLogo() {
     
   }
 }
-
-function animateValue(id, start, end, duration) {
-  var range = end - start;
-  var current = start;
-  var increment = end > start? 1 : -1;
-  var stepTime = Math.abs(Math.floor(duration / range));
-  var obj = document.getElementById(id);
-  var timer = setInterval(function() {
-      current += increment;
-      obj.innerHTML = current;
-      if (current == end) {
-          clearInterval(timer);
-      }
-  }, stepTime);
-}
-
 
 function countUp(id, end, duration) {
 
@@ -126,3 +96,37 @@ const map = new mapboxgl.Map({
   zoom: 1.4,
   'icon-allow-overlap': true
 })
+
+
+// init controller
+var controller = new ScrollMagic.Controller()
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#band-boxes'
+})
+.addTo(controller)
+.on('enter', function (e) {
+  countUp('box-num-1', 45, 1000)
+    setTimeout(function() {
+      countUp('box-num-2', 25, 1000)
+    }, 500)
+    setTimeout(function() {
+      countUp('box-num-3', 65, 1000)
+    }, 900)
+})
+
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#band-features'
+})
+.addTo(controller)
+.on('enter', function (e) {
+  $('.features .strike').each(function( index, el ) {
+    var t = 600 * index
+    setTimeout(function () {
+      $(el).addClass('active')
+      console.log('Adding Class Active', $(this))
+    }, t)
+  });
+})
+
+

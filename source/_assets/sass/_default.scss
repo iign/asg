@@ -34,14 +34,24 @@
 .strike {
   font-size: 24px;
   font-weight: 700;
-  color: $color-brand-two; 
+  color: transparent;
+  color: rgba(255, 255, 255, 0);
   text-transform: uppercase;
-  display: inline-block;
   text-decoration:line-through;
+  display: inline-block;
   margin-bottom: 60px;
-
   padding-left: 15px;
   padding-right: 35px;
+  transition: 500ms;
+
+  &.active {
+    transition: 500ms;
+    color: $color-brand-two;
+    
+    &:after {
+      opacity: 1;
+    }
+  }
 
   span {
     color: $color-body;
@@ -62,7 +72,8 @@
   }
 
   &:after {
-    display: block;
+    opacity: 0;
+    transition: 500ms;
     position: absolute;
     content: " ";
     top: 0;

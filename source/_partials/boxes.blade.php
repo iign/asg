@@ -1,4 +1,4 @@
- <section class="band band-boxes">
+ <section id="band-boxes" class="band band-boxes">
    <div class="container">
      <div class="row band-boxes__row-boxes">
        <div class="col-lg-4">

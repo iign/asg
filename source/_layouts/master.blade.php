@@ -59,7 +59,7 @@
         
         @include('_partials/hero')
 
-        <section class="band features">
+        <section id="band-features" class="band features">
           <div class="container">
             <div class="row">
               <div class="col-md-4">
@@ -143,6 +143,9 @@
 
         <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
         <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>
 </html>
