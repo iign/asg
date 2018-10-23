@@ -10552,7 +10552,6 @@ var scene = new ScrollMagic.Scene({
     var t = 600 * index;
     setTimeout(function () {
       $(el).addClass('active');
-      console.log('Adding Class Active', $(this));
     }, t);
   });
 });
