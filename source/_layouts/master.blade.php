@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body>
-        <header class="header">
+        <header id="up" class="header">
           
           <div class="container header-flex">
             <a href="/" class="header__logo-link">
