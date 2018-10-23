@@ -1,4 +1,4 @@
-<section class="band about">
+<section id="about" class="band about">
   <div class="container">
     <div class="row">
       <div class="col">

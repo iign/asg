@@ -1,4 +1,4 @@
-<section class="band band-favorites">
+<section id="projects" class="band band-favorites">
   <div class="container">
     <div class="row">
       <div class="col">

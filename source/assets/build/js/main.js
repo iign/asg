@@ -10459,6 +10459,10 @@ $('.js-toggle-menu').on('click', function () {
 
 $(function () {
 
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    offset: 90
+  });
+
   setTimeout(revealLogo, 500);
 
   // Test via a getter in the options object to see if the passive property is accessed

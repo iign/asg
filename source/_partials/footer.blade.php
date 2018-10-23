@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer id="footer" class="footer">
   <section class="footer-top band">
     <div class="container">
       <div class="row">
@@ -32,7 +32,7 @@
             <a href="#" class="footer__menu-link">About</a>
             <a href="#" class="footer__menu-link">Jobs</a>
             <a href="#" class="footer__menu-link footer__link-feature">Request a proposal</a>
-            <a href="#up" class="footer__menu-link footer__up">Go up</a>
+            <a href="#up" data-scroll class="footer__menu-link footer__up">Go up</a>
           </div>
         </div>
         <div class="col-md-3 footer__copy">

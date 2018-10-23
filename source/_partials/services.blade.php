@@ -1,4 +1,4 @@
-<section class="band services">
+<section id="services" class="band services">
   <div class="container">
     <div class="row">
       <div class="col-md-6">

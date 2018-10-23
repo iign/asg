@@ -9,8 +9,8 @@
         <link rel="author" href="humans.txt" />
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
-    <body>
-        <header id="up" class="header">
+    <body id="up">
+        <header  class="header">
           
           <div class="container header-flex">
             <a href="/" class="header__logo-link">
@@ -23,27 +23,27 @@
                   <span class="header__menu-link ">Services</span>
                   <ul class="header__menu-sub">
                     <li>
-                      <a href="#" class="header__menu-link header__menu-link--services">Production &amp; Coordination</a>
+                      <a href="#services" class="header__menu-link header__menu-link--services">Production &amp; Coordination</a>
                     </li>
                     <li>
-                      <a href="#" class="header__menu-link header__menu-link--services">Consulting</a>
+                      <a href="#services" class="header__menu-link header__menu-link--services">Consulting</a>
                     </li>
                     <li>
-                      <a href="#" class="header__menu-link header__menu-link--services">Content Development</a>
+                      <a href="#services" class="header__menu-link header__menu-link--services">Content Development</a>
                     </li>
                     <li>
-                      <a href="#" class="header__menu-link header__menu-link--services">Visualization</a>
+                      <a href="#services" class="header__menu-link header__menu-link--services">Visualization</a>
                     </li>
                   </ul>
                 </li>
                 <li class="header__menu-item">
-                  <a href="#" class="header__menu-link">Projects</a>
+                  <a href="#projects" class="header__menu-link">Projects</a>
                 </li>
                 <li class="header__menu-item">
-                  <a href="#" class="header__menu-link">About</a>
+                  <a href="#about" class="header__menu-link">About</a>
                 </li>
                 <li class="header__menu-item">
-                  <a href="#" class="header__menu-link">Jobs</a>
+                  <a href="#footer" class="header__menu-link">Jobs</a>
                 </li>
                 <li class="header__menu-item">
                   <a href="#" class="header__menu-link asg-btn">Request a proposal</a>
@@ -145,7 +145,7 @@
         <script src='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
         <link href='https://api.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </body>

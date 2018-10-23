@@ -98,7 +98,7 @@
     background-color: $color-brand-two;
     color: $color-body;
     display: inline-block;
-    padding: 6px 15px;
+    padding: 8px 15px;
   }
 
   &__copy {
@@ -125,6 +125,11 @@
     text-shadow: none;
     background-color: transparent;
     border: 0;
+    transition: 200ms ease;
+    &:hover {
+      transition: 200ms ease;
+      transform: translateY(-5px);
+    }
   }
 
   &__container {
