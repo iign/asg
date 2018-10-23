@@ -136,6 +136,7 @@
         @include('_partials/favorites')
         @include('_partials/world')
         @include('_partials/about')
+        @include('_partials/clients')
 
         {{-- @yield('body') --}}
 

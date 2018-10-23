@@ -26,15 +26,9 @@ a.asg-btn, .asg-btn {
   border-right: 8px solid $color-grey;
 }
 
-// .container{
-//   position: relative;
-//   padding: 0 16px;
-//   max-width: 1114px;
-//   margin: 0 auto;
-//   @media ($desktopHD) {
-//     padding: 0;
-//   }
-// }
+.align-center {
+  text-align: center;
+}
 
 %asg-shadow {
   box-shadow: 0 18px 35px rgba(50,50,93,.1), 0 8px 15px rgba(0,0,0,.07);
