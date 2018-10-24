@@ -96,8 +96,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaWlnbiIsImEiOiJJVnFnVEtVIn0.wJaGnsHUuEUoSCXvb
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/iign/cjnkd8riue1jf2rmmtx8sk94b',
-  center: [-78.413,13.346],
-  zoom: 1.4,
+  center: [-37.809,5.217],
+  minZoom: 1.2,
+  zoom: 1.2,
   'icon-allow-overlap': true
 })
 
