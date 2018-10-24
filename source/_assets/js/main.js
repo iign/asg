@@ -134,4 +134,12 @@ var scene = new ScrollMagic.Scene({
   });
 })
 
+var scene = new ScrollMagic.Scene({
+  triggerElement: '#band-steps'
+})
+.addTo(controller)
+.on('enter', function (e) {
+  console.log('entering steps.')
+  $('.step').addClass('active')
+})
 

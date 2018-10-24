@@ -1,5 +1,15 @@
 .hero {
-  min-height: calc(100vh - #{$header-height});
-  padding: 30px;
-  background-color: #ABABAB;
+  // min-height: calc(100vh - #{$header-height});
+  // background-color: $color-body;
+  // background-color: gold;
+  // background-image: url('../../images/hero.svg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  font-size: 0;
+  width: 100%;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }

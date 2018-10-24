@@ -21,9 +21,19 @@ body {
 
 a.asg-btn, .asg-btn {
   background-color: $color-brand-two;
-  border-bottom: 20px solid $color-body;
+  border-bottom: 20px solid #000;
   border-left: 8px solid $color-brand-four;
   border-right: 8px solid $color-grey;
+  transition: 200ms;
+  text-decoration: none;
+
+  &:hover {
+    border-bottom: 20px solid #000;
+    border-right: 8px solid #7e7778;
+    color: $color-brand-two;
+    background-color: $color-body;
+    text-decoration: none;
+  }
 }
 
 .align-center {

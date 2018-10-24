@@ -23,16 +23,16 @@
                   <span class="header__menu-link ">Services</span>
                   <ul class="header__menu-sub">
                     <li>
-                      <a href="#services" class="header__menu-link header__menu-link--services">Production &amp; Coordination</a>
+                      <a href="#production_and_coordination" class="header__menu-link header__menu-link--services">Production &amp; Coordination</a>
                     </li>
                     <li>
-                      <a href="#services" class="header__menu-link header__menu-link--services">Consulting</a>
+                      <a href="#consulting" class="header__menu-link header__menu-link--services">Consulting</a>
                     </li>
                     <li>
-                      <a href="#services" class="header__menu-link header__menu-link--services">Content Development</a>
+                      <a href="#content_development" class="header__menu-link header__menu-link--services">Content Development</a>
                     </li>
                     <li>
-                      <a href="#services" class="header__menu-link header__menu-link--services">Visualization</a>
+                      <a href="#visualization" class="header__menu-link header__menu-link--services">Visualization</a>
                     </li>
                   </ul>
                 </li>
@@ -129,7 +129,7 @@
           </div>
         </section>
 
-        @include('_partials/project')
+        @include('_partials/steps')
         @include('_partials/boxes')
         @include('_partials/services')
         @include('_partials/proposal')

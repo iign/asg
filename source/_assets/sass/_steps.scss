@@ -1,0 +1,48 @@
+.band-steps {
+  background-color: #f5f5f5;
+}
+
+.step {
+  opacity: 0;
+  transition: 200ms ease;
+
+  &--2 { transition-delay: 200ms; }
+  &--3 { transition-delay: 400ms; }
+  &--4 { transition-delay: 800ms; }
+  &--5 { transition-delay: 1000ms; }
+
+  &.active {
+    opacity: 1;
+  }
+
+  &__img {
+    max-width: 100%;
+    max-height: 165px;
+    @media ($desktop) {
+      max-height: 107px;
+    }
+    @media (min-width: 992px) {
+      max-height: 136px;
+    }
+    @media (min-width: 1200px) {
+      max-height: 165px;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  &__info {
+    font-weight: 500;
+    font-size: 18px;
+    color: #7d7778;
+    padding-left: 15px;
+    background-image: url(../../images/chevron-sm.svg);
+    background-position: top 5px left;
+    background-repeat: no-repeat;
+    background-size: 7px 11px;
+  }
+}

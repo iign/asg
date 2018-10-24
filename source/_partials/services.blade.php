@@ -14,7 +14,7 @@
     <div class="row">
 
       <div class="col-md-6 col-lg-3 service__col service__col-1">
-        <h4 class="service__title">Production<br>&amp; Coordination</h4>
+        <h4 id="production_and_coordination" class="service__title">Production<br>&amp; Coordination</h4>
         <div class="service__img" style="background-image: url(assets/images/service-1.svg)"></div>
         <div class="service__description">
           <p>
@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="col-md-6 col-lg-3 service__col service__col-2">
-        <h4 class="service__title">Consulting</h4>
+        <h4 id="consulting" class="service__title">Consulting</h4>
         <div class="service__img" style="background-image: url(assets/images/service-2.svg)"></div>
         <div class="service__description">
           <p>
@@ -53,7 +53,7 @@
       </div>
       
       <div class="col-md-6 col-lg-3 service__col service__col-3">
-        <h4 class="service__title">Content development</h4>
+        <h4 id="content_development" class="service__title">Content development</h4>
         <div class="service__img" style="background-image: url(assets/images/service-3.svg)"></div>
         <div class="service__description">
           <p>
@@ -71,7 +71,7 @@
       </div>
 
       <div class="col-md-6 col-lg-3 service__col service__col-4">
-        <h4 class="service__title">Visualization</h4>
+        <h4 id="visualization" class="service__title">Visualization</h4>
         <div class="service__img" style="background-image: url(assets/images/service-4.svg)"></div>
         <div class="service__description">
           <p>
