@@ -1,9 +1,14 @@
 @charset 'UTF-8';
 
+
 @import 'normalize';
+
+@import 'node_modules/slick-carousel/slick/slick.scss';
+@import 'node_modules/slick-carousel/slick/slick-theme.scss';
+@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
+
 @import 'variables';
 @import 'helpers';
-@import 'node_modules/bootstrap/scss/bootstrap-grid.scss';
 @import 'base';
 @import 'default';
 @import 'header';
@@ -15,5 +20,6 @@
 @import 'about';
 @import 'clients';
 @import 'steps';
+@import 'testimonials';
 @import 'footer';
 

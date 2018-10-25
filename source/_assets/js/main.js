@@ -1,6 +1,7 @@
 //console.log('%cBuilt by %cm • n t a g', 'font-size: 12px', 'font-family: Poppins, sans-serif; font-size: 16px; font-weight: bold; color: #FF4455; padding: 2px 6px; border-radius: 2px')
 //console.log('🔗 https://montag.uy')
 window.$ = window.jQuery = require('jquery')
+import 'slick-carousel'
 
 console.log('%c💡 Crafted with ♥️ by https://ign.uy', 'font-size: 14px; padding: 8px 0; font-family: Poppins, sans-serif;')
 
@@ -29,7 +30,6 @@ $(function() {
 
   setTimeout(revealLogo, 500)
 
-  // Test via a getter in the options object to see if the passive property is accessed
   var supportsPassive = false;
   try {
     var opts = Object.defineProperty({}, 'passive', {
@@ -41,16 +41,35 @@ $(function() {
     window.removeEventListener("testPassive", null, opts);
   } catch (e) {}
 
-  //document.addEventListener('scroll', function(e){ detectBand(e) }, supportsPassive ? { passive: true } : false)
+  $('.testimonials').slick({
+    slidesToShow: 1,
+    infinite: true,
+    adaptiveHeight: true,
+    mobileFirst: true,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 760,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 1050,
+        settings: {
+          arrows: true,
+          slidesToShow: 3
+        }
+      }
+    ]
+  });
 
 })
 
 
 function revealLogo() {
-  $list = $('.logo path')
+  let $list = $('.logo path')
   $list.sort(function() { return 0.5 - Math.random() })
-
-  var random = Math.floor(Math.random()*13)
 
   for (let index = 0; index < $list.length; index++) {
 
@@ -139,7 +158,6 @@ var scene = new ScrollMagic.Scene({
 })
 .addTo(controller)
 .on('enter', function (e) {
-  console.log('entering steps.')
   $('.step').addClass('active')
 })
 
