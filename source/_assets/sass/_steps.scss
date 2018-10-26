@@ -4,12 +4,12 @@
 
 .step {
   opacity: 0;
-  transition: 200ms ease;
+  transition: 400ms ease;
 
-  &--2 { transition-delay: 200ms; }
-  &--3 { transition-delay: 400ms; }
-  &--4 { transition-delay: 800ms; }
-  &--5 { transition-delay: 1000ms; }
+  &--2 { transition-delay: 400ms; }
+  &--3 { transition-delay: 800ms; }
+  &--4 { transition-delay: 1200ms; }
+  &--5 { transition-delay: 1600ms; }
 
   &.active {
     opacity: 1;
