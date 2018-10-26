@@ -36,7 +36,7 @@
       </div>
      </div>
      <div class="row">
-       <a class="box-download" href="#" download>Download some of our BIM tips</a>
+       <a class="box-download" href="/uploads/WebTips.pdf" target="_blank">Download some of our BIM tips</a>
      </div>
    </div>
  </section>
