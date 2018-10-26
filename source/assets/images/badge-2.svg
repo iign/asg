@@ -1,0 +1,59 @@
+
+<svg width="156px" height="156px" viewBox="0 0 156 156" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="badge-2">
+            <circle id="Oval" fill="#1D1D1B" cx="77.59" cy="78.29" r="77.59"></circle>
+            <text id="M" fill="#FFFFFF" transform="translate(33.023347, 45.641597) rotate(-54.340000) translate(-33.023347, -45.641597) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="23.523347" y="55.6415969">M</tspan>
+            </text>
+            <text id="E" fill="#FFFFFF" transform="translate(46.485000, 32.670000) rotate(-34.007492) translate(-46.485000, -32.670000) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="38.9756309" y="42.6512617">E</tspan>
+            </text>
+            <text id="E" fill="#FFFFFF" transform="translate(62.531615, 25.141019) rotate(-15.860000) translate(-62.531615, -25.141019) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="55.0316152" y="35.1410187">E</tspan>
+            </text>
+            <text id="T" fill="#FFFFFF" transform="translate(80.668672, 23.137305) rotate(2.560000) translate(-80.668672, -23.137305) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="72.6686716" y="33.1373046">T</tspan>
+            </text>
+            <text id="I" fill="#FFFFFF" transform="translate(92.985317, 25.255320) rotate(16.030000) translate(-92.985317, -25.255320) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="89.4853167" y="35.2553198">I</tspan>
+            </text>
+            <text id="N" fill="#FFFFFF" transform="translate(105.880000, 30.845000) rotate(30.668927) translate(-105.880000, -30.845000) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="97.3812751" y="40.8472502">N</tspan>
+            </text>
+            <text id="G" fill="#FFFFFF" transform="translate(120.450000, 43.350000) rotate(50.267697) translate(-120.450000, -43.350000) " font-family="Barlow-Black, Barlow" font-size="25.3859596" font-weight="700">
+                <tspan x="112.440006" y="53.3312617">G</tspan>
+            </text>
+            <text id="D" fill="#FFFFFF" transform="translate(27.420000, 93.960000) rotate(72.474432) translate(-27.420000, -93.960000) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="19.4500565" y="104.016356">D</tspan>
+            </text>
+            <text id="E" fill="#FFFFFF" transform="translate(35.488985, 109.720721) rotate(52.400000) translate(-35.488985, -109.720721) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="27.9889852" y="119.720721">E</tspan>
+            </text>
+            <text id="A" fill="#FFFFFF" transform="translate(49.715862, 122.861088) rotate(33.400000) translate(-49.715862, -122.861088) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="40.2158621" y="132.861088">A</tspan>
+            </text>
+            <text id="D" fill="#FFFFFF" transform="translate(65.760000, 129.540000) rotate(13.339249) translate(-65.760000, -129.540000) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="57.7848386" y="139.586572">D</tspan>
+            </text>
+            <text id="L" fill="#FFFFFF" transform="translate(83.302346, 130.532028) rotate(-5.900000) translate(-83.302346, -130.532028) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="75.8023458" y="140.532028">L</tspan>
+            </text>
+            <text id="I" fill="#FFFFFF" transform="translate(95.790233, 127.596249) rotate(-20.100000) translate(-95.790233, -127.596249) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="92.2902329" y="137.596249">I</tspan>
+            </text>
+            <text id="N" fill="#FFFFFF" transform="translate(108.166105, 121.012289) rotate(-35.530000) translate(-108.166105, -121.012289) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="99.666105" y="131.012289">N</tspan>
+            </text>
+            <text id="E" fill="#FFFFFF" transform="translate(120.804017, 108.202505) rotate(-55.320000) translate(-120.804017, -108.202505) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="113.304017" y="118.202505">E</tspan>
+            </text>
+            <text id="S" fill="#FFFFFF" transform="translate(128.332478, 91.930726) rotate(-74.440000) translate(-128.332478, -91.930726) " font-family="Barlow-Black, Barlow" font-size="25.3860302" font-weight="700">
+                <tspan x="120.332478" y="101.930726">S</tspan>
+            </text>
+            <path d="M77.73,113.75 L50.14,93.48 L50.14,63.13 L50.33,62.99 L77.73,42.83 L105,63.13 L105,93.48 L77.73,113.75 Z M51.09,93 L77.72,112.57 L104.09,93 L104.09,63.61 L77.73,44 L51.09,63.61 L51.09,93 Z" id="Shape" fill="#46D2BE" fill-rule="nonzero"></path>
+            <polygon id="Path" fill="#46D2BE" points="77.73 84.1 50.33 63.97 50.9 63.2 77.73 82.91 104.28 63.2 104.84 63.96"></polygon>
+            <rect id="Rectangle" fill="#46D2BE" x="77.25" y="83.51" width="1" height="29.66"></rect>
+        </g>
+    </g>
+</svg>

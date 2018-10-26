@@ -1,0 +1,22 @@
+.band-values {
+  background-color: #b27390;
+  .band__title {
+    color: $color-brand-two;
+  }
+}
+
+.badge {
+  width: 100%;
+  max-width: 153px;
+  max-height: 153px;
+  height: auto;
+  transition: 100ms ease;
+  margin-bottom: 20px;
+  filter: drop-shadow(5px 5px 0 rgba(0, 0, 0, 0));
+  &:hover {
+    transform: rotate(6deg) scale(1.12);
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.3));
+  }
+
+
+}

@@ -126,7 +126,7 @@
       <path fill="none" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M586.55 512.03l.96-.49M594.35 508.11l1.55 10.74M586.55 512.03l1.55 10.74M580.64 508.72l-2.08 8.59M557.22 507.33l6.72-3.29a1.11 1.11 0 0 0-.33-1.83c-1.35-.67-6.65-3.64-6.65-3.64s-.9-.53-1.41-.15-1.1.77-1.1.77"/>
       <path d="M556.29 506.79s-6.61-3.84-7.75-4.41-1.88-9.57-1.89-10.17.6-1.36 2-.53 4.06 2.61 4.06 2.61 1.32.76 1.6 3.3a58.33 58.33 0 0 0 .91 7.51 3.57 3.57 0 0 0 1.07 1.69z" fill="#b0b0b0" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5"/>
       <path fill="none" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M557.22 507.33l-.93-.54M549.65 502.98l-3 10.08M557.22 507.33l-2.15 10.64M563.31 504.36l1.58 8.7"/>
-      <path fill="none" stroke="#b0738e" stroke-miterlimit="10" stroke-width=".5" stroke-dasharray="4.92" d="M570.37 1.06v270.23"/>
+      <path class="not-animate" fill="none" stroke="#b0738e" stroke-miterlimit="10" stroke-width=".5" stroke-dasharray="4.92" d="M570.37 1.06v270.23"/>
       <path fill="#f4f4f4" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M480.35 272.79l65.62-31.3 2.55 1.5v24.22l-65.83 31.2-2.34-1.33v-24.29z"/>
       <path fill="none" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M480.35 272.79l2.71 1.56 65.46-31.36M483.06 274.35v23.88"/>
       <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width=".5" d="M209.28 554.66l-49.52 23.24-18.67-10.88 49.53-23.25 18.66 10.89zM209.28 582.82l-49.52 23.24-18.67-10.88M166.04 574.98l-18.66-10.89M172.93 571.72l-18.66-10.88M195.15 561.45l-18.66-10.89M187.73 564.78l-18.66-10.89M180.59 568.1l-18.67-10.88M202.2 557.94l-18.66-10.89M209.28 554.66v28.16M159.76 577.9v28.16M141.1 567.02v28.16M150.25 572.35v28.2M199.95 549.22l-49.52 23.24M166.04 574.98v28.13M172.93 571.72v28.16M180.64 568.1v27.91M187.73 564.78v28.13M195.15 561.45v28.2M202.2 557.94v28.2M163.6 528.15l-49.53 23.23-18.66-10.88 49.52-23.24 18.67 10.89zM142.41 538.1l-18.66-10.89M135.26 541.43l-18.66-10.89M163.6 556.31l-49.53 23.23-18.66-10.88M120.35 548.46l-18.66-10.88M127.24 545.21l-18.66-10.89M149.46 534.93l-18.66-10.88M156.52 531.42l-18.66-10.88M163.6 528.15v28.16M114.07 551.38v28.16M95.41 540.5v28.16M104.56 545.84v28.19M154.27 522.7l-49.53 23.24M120.35 548.46v28.14M127.24 545.21v28.15M134.95 541.59v27.9M142.05 538.26v28.14M149.46 534.93v28.2M156.52 531.42v28.21"/>
@@ -174,7 +174,7 @@
   
 
 <style>
-.hero-img path {
+.hero-img path:not(.not-animate) {
   stroke-dasharray: 1725;
   stroke-dashoffset: 0;
   animation: dash 3s ease-in forwards;
@@ -187,6 +187,12 @@
   to {
     stroke-dashoffset: 0;
   }
+}
+
+.hero-img .not-animate {
+  stroke-dasharray: 4.92;
+  stroke-dashoffset: 0;
+  animation: fadein forwards 4s;
 }
 
 @keyframes fadein {
