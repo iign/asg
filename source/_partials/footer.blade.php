@@ -27,10 +27,10 @@
         <div class="col-md-9">
           @include('_partials/logo_white')
           <div class="footer__menu">
-            <a href="#" class="footer__menu-link">Services</a>
-            <a href="#" class="footer__menu-link">Projects</a>
-            <a href="#" class="footer__menu-link">About</a>
-            <a href="#" class="footer__menu-link">Jobs</a>
+            <a href="#services" class="footer__menu-link">Services</a>
+            <a href="#projects" class="footer__menu-link">Projects</a>
+            <a href="#about" class="footer__menu-link">About</a>
+            <a href="#footer" class="footer__menu-link">Jobs</a>
             <a href="#" class="footer__menu-link footer__link-feature">Request a proposal</a>
             <a href="#up" data-scroll class="footer__menu-link footer__up">Go up</a>
           </div>
