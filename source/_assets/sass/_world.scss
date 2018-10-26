@@ -5,18 +5,21 @@
   overflow-x: hidden;
 
   &__text {
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
     background-image: url(../../images/icon-world.svg);
     background-size: 25px;
     background-position: center left;
     background-repeat: no-repeat;
-    padding-left: 35px;
+    padding-left: 40px;
     display: inline-block;
     width: 100%;
-
     strong {
       font-size: 500;
+    }
+
+    @media($desktop) {
+      font-size: 28px;
     }
   }
 }
