@@ -1,5 +1,6 @@
 .contact {
   position: fixed;
+  display: none;
   left: 0;
   right: 0;
   top: $header-height;
@@ -13,12 +14,20 @@
   background: #7d7778;
   color: white;
 
+  &.active {
+    display: block;
+  }
+
   @media ($min-width) {
     max-width: 415px;
     right: 30px;
     left: unset;
     top: $header-height-desktop;
     height: auto;
+  }
+
+  &__output {
+    display: none;
   }
 
   &__title {

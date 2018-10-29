@@ -8,9 +8,8 @@
         </div>
       </div>
       <div class="col-md-4 proposal__col-btn">
-        <button class="btn-cta">Request a proposal</button>
+        <button class="btn-cta js-proposal">Request a proposal</button>
       </div>
-
 
     </div>
   </div>

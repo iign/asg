@@ -13523,10 +13523,34 @@ $(function () {
   });
 
   $('.js-proposal').on('click', function () {
-    // toggle proposal
+    var right = $(document).width() - $('.header .js-proposal').offset().left - $('.header .js-proposal').outerWidth();
+    $('.js-contact').css('right', right);
+    $('.js-contact').toggleClass('active');
   });
 }); // end ready
 
+
+$('.js-contact-form').submit(function (e) {
+  var form = $(this);
+  $('.js-contact-form :submit').attr("disabled", "disabled").val('Sending...');
+  var url = form.attr('action');
+
+  $.ajax({
+    type: "POST",
+    url: url,
+    data: form.serialize(),
+    success: function success(data) {
+      if (data) {
+        form.hide();
+        $('.contact__output').text('Thanks for contacting us.');
+      } else {
+        $('.js-contact-form :submit').attr("disabled", false);
+        $('.contact__output').text('There was an error sending your request. Please try again.');
+      }
+    }
+  });
+  e.preventDefault();
+});
 
 function revealLogo() {
   var $list = $('.logo path');
