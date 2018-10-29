@@ -13521,7 +13521,12 @@ $(function () {
       }
     }]
   });
-});
+
+  $('.js-proposal').on('click', function () {
+    // toggle proposal
+  });
+}); // end ready
+
 
 function revealLogo() {
   var $list = $('.logo path');

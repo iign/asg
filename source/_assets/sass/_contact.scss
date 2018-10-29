@@ -1,0 +1,60 @@
+.contact {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: $header-height;
+  width: 100%;
+  height: calc(100% - #{$header-height});
+  border-top: 10px solid $color-body;
+  border-bottom: 10px solid $color-body;
+  border-right: 5px solid $color-body;
+  border-left: 5px solid $color-body;
+  padding: 30px;
+  background: #7d7778;
+  color: white;
+
+  @media ($min-width) {
+    max-width: 415px;
+    right: 30px;
+    left: unset;
+    top: $header-height-desktop;
+    height: auto;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: $color-brand-four;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+    @media ($min-width) {
+      font-size: 22px;
+    }
+  }
+
+  &__intro {
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 35px;
+    margin: 0 0 10px 0;
+    @media ($min-width) {
+      font-size: 22px;
+    }
+  }
+
+  &__comment {
+    min-height: 260px;
+    resize: vertical;
+  }
+
+  .asg-btn {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    border-right-color: #d8d8d8;
+    border-bottom-width: 30px;
+  }
+}

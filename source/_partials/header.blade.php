@@ -34,7 +34,7 @@
           <a href="#footer" class="header__menu-link">Jobs</a>
         </li>
         <li class="header__menu-item">
-          <a href="#" class="header__menu-link asg-btn">Request a proposal</a>
+          <button class="header__menu-link asg-btn js-proposal">Request a proposal</button>
         </li>
       </ul>
     </div>

@@ -171,42 +171,30 @@
 
 }
 
-// .logo {
-//   path {
-//     opacity: 0;
-//     animation: 0.02s ease-in both fade-in;
-//   }
-
-//   @for $i from 1 through 13 {
-//     path {
-      
-//       // :nth-child(1-12) 
-//       &:nth-child(#{$i}) {
-//         // Delay the animation. Delay increases as items loop.
-//         animation-delay: $i * (.09s);
-//       }
-//     }
-//   }
-
-
-
-// }
-
-// @keyframes fade-in {
-//   0% {
-//     opacity: 0;
-//   }
-  
-//   100% {
-//     opacity: 1;
-//   }
-// }
-
 .logo path {
   opacity: 0;
   transition: 300ms;
   &.active {
     opacity: 1;
     transition: 300ms;
+  }
+}
+
+a.asg-btn, .asg-btn {
+  background: $color-brand-two;
+  background-color: $color-brand-two;
+  border-bottom: 20px solid #000;
+  border-left: 8px solid $color-brand-four;
+  border-right: 8px solid $color-grey;
+  transition: 200ms;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 20px solid #000;
+    border-right: 8px solid #7e7778;
+    color: $color-brand-two;
+    background-color: $color-body;
+    text-decoration: none;
   }
 }
