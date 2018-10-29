@@ -16,7 +16,8 @@
         <h5 class="testimonial__company">Conaprole</h5>
         <p class="testimonial__quote">
           &laquo;
-          Sed efficitur dapibus porta. Nulla porta, velit eget porttitor aliquam, tellus tellus pharetra mi.
+          Sed efficitur dapibus porta. Nulla porta, velit eget porttitor aliquam, tellus tellus pharetra mi. 
+          Etiam mi lorem, fringilla.
           &raquo;
         </p>
       </div>
@@ -25,7 +26,7 @@
         <h5 class="testimonial__company">Conaprole</h5>
         <p class="testimonial__quote">
           &laquo;Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Cupiditate autem eos quos, numquam perspiciatis&raquo;
+          Cupiditate autem eos quos, numquam perspiciatis. Etiam mi lorem, fringilla a convallis. &raquo;
         </p>
       </div>
       <div class="testimonial">
@@ -34,7 +35,8 @@
         <p class="testimonial__quote">
           &laquo;
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-          Cupiditate autem eos quos, numquam perspiciatis
+          Cupiditate autem eos quos, numquam perspiciatis.
+          Etiam mi lorem, fringilla.
           &raquo;
         </p>
       </div>

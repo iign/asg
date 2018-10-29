@@ -44,9 +44,9 @@ $(function() {
   $('.testimonials').slick({
     slidesToShow: 1,
     infinite: true,
-    adaptiveHeight: true,
     mobileFirst: true,
     arrows: false,
+    rows: 0,
     responsive: [
       {
         breakpoint: 760,
@@ -62,7 +62,7 @@ $(function() {
         }
       }
     ]
-  });
+  })
 
 })
 
