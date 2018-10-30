@@ -15,10 +15,14 @@
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#F39200">
     <meta name="theme-color" content="#F39200">
+    <meta property="og:title" content="{{ $page->siteName }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ $page->getUrl() }}" />
+    <meta property="og:image" content="{{ $page->getUrl() }}asg.jpg" />
+    <title>{{ $page->siteName }}</title>
   </head>
   <body id="up">
-      
-      
+       
     @include('_partials/header')
     @include('_partials/hero')
     @include('_partials/struggle')
