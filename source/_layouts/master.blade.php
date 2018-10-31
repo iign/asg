@@ -42,7 +42,7 @@
     @include('_partials/about')
     @include('_partials/clients')
     @include('_partials/values')
-    @include('_partials/testimonials')
+    {{-- @include('_partials/testimonials') --}}
     @include('_partials/contact')
 
     {{-- @yield('body') --}}
