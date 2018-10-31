@@ -2,6 +2,9 @@
 @include('_partials/montag')
 <html lang="en">
   <head>
+    <title>{{ $page->siteName }}</title>
+    <meta name="description" content="{{ $page->siteDescription }}">
+    <meta name="keywords" content="Architecture, BIM, production, coordination, consulting, content development, visualization, modeling, construction, BEP, VR, render, animation">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400,400i,500,500i,700,800" rel="stylesheet">
@@ -15,11 +18,14 @@
     <link rel="manifest" href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#F39200">
     <meta name="theme-color" content="#F39200">
+
     <meta property="og:title" content="{{ $page->siteName }}" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ $page->getUrl() }}" />
     <meta property="og:image" content="{{ $page->getUrl() }}asg.jpg" />
-    <title>{{ $page->siteName }}</title>
+    <meta property="og:description" content="{{ $page->siteDescription }}" />
+    
   </head>
   <body id="up">
        

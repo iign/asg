@@ -3,7 +3,7 @@
   <p class="contact__intro">
     Tell us a bit about your needs and we'll get back to you shortly.
   </p>
-  <form class="js-contact-form" method="POST" action="http://127.0.0.1:9000/contact.php">
+  <form class="js-contact-form" method="POST" action="/contact.php">
     <div class="form-line">
       <input type="text" name="contact__name" class="form-input" placeholder="your name" required>
       <input style="position: absolute; top: 0; left: 0; pointer-events:none; opacity: 0;" type="text" name="lastname" class="form-input" placeholder="your lastname" tabindex="9999">

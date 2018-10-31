@@ -4,7 +4,7 @@ if (empty($_POST['lastname']) && isset($_POST['contact__name']) && isset($_POST[
   require_once 'vendor/autoload.php';
 
   // Create the Transport
-  $transport = (new Swift_SmtpTransport('mail.archsourcing.com', 587))
+  $transport = (new Swift_SmtpTransport('server449.dinamichosting.com', 587))
     ->setUsername('website@archsourcing.com')
     ->setPassword('^#QVkb#faaqv');
 
@@ -14,10 +14,10 @@ if (empty($_POST['lastname']) && isset($_POST['contact__name']) && isset($_POST[
 
   $mailer = new Swift_Mailer($transport);
 
-  $message = (new Swift_Message('Wonderful Subject'))
-    ->setFrom(['website@archsourcing.com' => 'Archsourcing'])
+  $message = (new Swift_Message('Proposal request'))
+    ->setFrom(['website@archsourcing.com' => '/ASG'])
     ->setReplyTo([$email => $name])
-    ->setTo(['ignacio@ign.uy' => 'Website admin'])
+    ->setTo(['mercedes@archsourcing.com', 'andy@archsourcing.com'])
     ->setBody($comment);
 
   $result = $mailer->send($message);
@@ -27,5 +27,5 @@ if (empty($_POST['lastname']) && isset($_POST['contact__name']) && isset($_POST[
   
 }
 else {
-  var_dump($_POST);
+  die();
 }
