@@ -13478,9 +13478,13 @@ window.requestAnimFrame = function () {
   };
 }();
 
-$('.js-toggle-menu').on('click', function () {
+function toggleMenu() {
   $('.header__menu').toggleClass('active');
   $('body').toggleClass('menu-open');
+}
+
+$('.js-toggle-menu').on('click', function () {
+  toggleMenu();
 });
 
 $(function () {
@@ -13526,6 +13530,7 @@ $(function () {
     var right = $(document).width() - $('.header .js-proposal').offset().left - $('.header .js-proposal').outerWidth();
     $('.js-contact').css('right', right);
     $('.js-contact').toggleClass('active');
+    toggleMenu();
   });
 }); // end ready
 
