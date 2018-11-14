@@ -4,6 +4,11 @@ let build = require('./tasks/build.js')
 mix.disableSuccessNotifications()
 mix.setPublicPath('source/assets/build')
 mix.webpackConfig({
+  node: {
+    fs: "empty",
+    "net": "empty",
+    "tls": "empty"
+  },
   plugins: [
     build.jigsaw,
     build.browserSync(),

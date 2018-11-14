@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://archsourcing.netlify.com',
+    'baseUrl' => 'http://archsourcing.com',
     'production' => true,
 ];

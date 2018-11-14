@@ -3,6 +3,21 @@
     <div class="container">
       <div class="row">
         <div class="col">
+          <h5 class="footer__title footer__title--ln">Linkedin</h5>
+          <div class="footer__timeline">
+            
+          </div>
+        </div>
+        <div class="col">
+          <h5 class="footer__title footer__title--tw">Twitter</h5>
+        </div>
+        <div class="col">
+          <h5 class="footer__title footer__title--jobs">Jobs</h5>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
           <h5 class="footer__title">Contact us</h5>
         </div>
       </div>

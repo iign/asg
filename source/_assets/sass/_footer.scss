@@ -20,7 +20,6 @@
     font-weight: 500;
     text-transform: uppercase;
     
-
     @media ($desktop) {
       padding-left: 40px;
       &:before {
@@ -37,7 +36,31 @@
         background-repeat: no-repeat;
       }
     }
+
+    &--ln {
+      @media ($desktop) {
+        &:before {
+          background-image: url('../../images/icon-ln.svg');
+        }
+      }
+    }
+
+    &--tw {
+      @media ($desktop) {
+        &:before {
+          background-image: url('../../images/icon-tw.svg');
+        }
+      }
+    }
     
+    &--jobs {
+      @media ($desktop) {
+        padding-left: 0;
+        &:before {
+          display: none;
+        }
+      }
+    }
 
     
   }
@@ -135,6 +158,11 @@
   &__container {
     max-width: 1400px;
     margin: 0 auto;
+  }
+
+  &__timeline {
+    border: 1px solid #9d9d9c;
+    
   }
 
 }
