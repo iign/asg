@@ -13532,6 +13532,26 @@ $(function () {
     $('.js-contact').toggleClass('active');
     toggleMenu();
   });
+
+  // Load twitter stream
+  $.getJSON("//archsourcing.com/streams/twitter.php", function (data) {
+
+    var items = [];
+    $('.js-twitter-stream').empty();
+    $.each(data, function (key, val) {
+
+      var avatar = val.user.profile_image_url;
+      var text = val.text;
+      $('.js-twitter-stream').append("<li class='stream-item'> \
+      <div class='stream-item__img-col'>  \
+        <div class='stream-item__img' style='background-image: url(" + avatar + ")'></div> \
+      </div> \
+      <div class='stream-item__data'> \
+      " + text + " \
+      </div> \
+    </li>");
+    });
+  });
 }); // end ready
 
 

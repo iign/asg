@@ -38,6 +38,7 @@
     }
 
     &--ln {
+      color: $color-brand-two;
       @media ($desktop) {
         &:before {
           background-image: url('../../images/icon-ln.svg');
@@ -46,6 +47,7 @@
     }
 
     &--tw {
+      color: $color-brand-two;
       @media ($desktop) {
         &:before {
           background-image: url('../../images/icon-tw.svg');
@@ -160,10 +162,50 @@
     margin: 0 auto;
   }
 
-  &__timeline {
+  &__stream {
+    min-height: 100px;
+    padding: 15px;
     border: 1px solid #9d9d9c;
+    margin-bottom: 30px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
     
   }
 
 }
 
+
+.stream-item {
+  display: block;
+  list-style: none;
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  @extend %clearfix;
+  display: flex;
+
+  a {
+    color: $color-brand-two;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__img-col {
+    margin-right: 10px;
+  }
+
+  &__img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
+    border-radius: 100px;
+  }
+}

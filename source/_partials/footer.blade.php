@@ -4,12 +4,37 @@
       <div class="row">
         <div class="col">
           <h5 class="footer__title footer__title--ln">Linkedin</h5>
-          <div class="footer__timeline">
-            
+          <div class="footer__stream">
+            Loading...
           </div>
         </div>
         <div class="col">
           <h5 class="footer__title footer__title--tw">Twitter</h5>
+          <div class="footer__stream js-twitter-stream">
+            Loading...
+            <ul>
+              <li class="stream-item">
+                <div class="stream-item__img-col">
+                  <div class="stream-item__img"></div>
+                </div>
+                <div class="stream-item__data">
+                  Your projects developed. You unplug.
+                  We help you take your #SD to the highest
+                  quality <a href="#">https://archsourcing.com</a> <a href="#">#BIM</a>
+                </div>
+              </li>
+              <li class="stream-item">
+                <div class="stream-item__img-col">
+                  <div class="stream-item__img"></div>
+                </div>
+                <div class="stream-item__data">
+                  Your projects developed. You unplug.
+                  We help you take your #SD to the highest
+                  quality https://archsourcing.com #BIM
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col">
           <h5 class="footer__title footer__title--jobs">Jobs</h5>
