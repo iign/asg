@@ -1,6 +1,7 @@
 .contact {
   position: fixed;
   display: none;
+  z-index: 10;
   left: 0;
   right: 0;
   top: $header-height;

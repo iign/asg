@@ -96,6 +96,9 @@ $(function() {
     
   })
 
+  $(".custom-file-input").change(function () {
+    $('.custom-file-input').addClass('active')
+  })
 
 }) // end ready
 
@@ -217,4 +220,3 @@ var scene = new ScrollMagic.Scene({
 .on('enter', function (e) {
   $('.step').addClass('active')
 })
-

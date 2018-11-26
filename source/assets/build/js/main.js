@@ -13534,7 +13534,7 @@ $(function () {
   });
 
   // Load twitter stream
-  $.getJSON("//archsourcing.com/streams/twitter.php", function (data) {
+  $.getJSON("http://archsourcing.com/streams/twitter.php", function (data) {
 
     var items = [];
     $('.js-twitter-stream').empty();
@@ -13551,6 +13551,10 @@ $(function () {
       </div> \
     </li>");
     });
+  });
+
+  $(".custom-file-input").change(function () {
+    $('.custom-file-input').addClass('active');
   });
 }); // end ready
 
