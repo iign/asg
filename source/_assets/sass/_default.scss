@@ -129,7 +129,7 @@
 
 .box {
   @extend %asg-shadow;
-  cursor: pointer;
+  cursor: default;
   background-color: $color-body;
   color: #a9a5a6;
   border: 1px solid $color-brand-four;

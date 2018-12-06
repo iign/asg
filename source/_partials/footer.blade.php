@@ -73,7 +73,7 @@
             <a href="#projects" class="footer__menu-link">Projects</a>
             <a href="#about" class="footer__menu-link">About</a>
             <a href="#footer" class="footer__menu-link">Jobs</a>
-            <a href="#" class="footer__menu-link footer__link-feature">Request a proposal</a>
+            <span class="footer__menu-link footer__link-feature js-proposal">Request a proposal</span>
             <a href="#up" data-scroll class="footer__menu-link footer__up">Go up</a>
           </div>
         </div>
