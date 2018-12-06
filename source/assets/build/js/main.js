@@ -13624,14 +13624,322 @@ function countUp(id, end, duration) {
   })();
 }
 
+var places = [{
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.394567, 34.006174],
+    "type": "Point"
+  },
+  "id": "1"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.328659, 34.092808],
+    "type": "Point"
+  },
+  "id": "2"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.2592514, 34.10041676],
+    "type": "Point"
+  },
+  "id": "3"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.592030, 34.190300],
+    "type": "Point"
+  },
+  "id": "4"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.243683, 34.052235],
+    "type": "Point"
+  },
+  "id": "5"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.243688, 34.252240],
+    "type": "Point"
+  },
+  "id": "6"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.243693, 34.052245],
+    "type": "Point"
+  },
+  "id": "7"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.243698, 34.052250],
+    "type": "Point"
+  },
+  "id": "8"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.243703, 34.052255],
+    "type": "Point"
+  },
+  "id": "9"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.406390, 34.024020],
+    "type": "Point"
+  },
+  "id": "10"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-122.210480, 39.341740],
+    "type": "Point"
+  },
+  "id": "11"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.499380, 34.158850],
+    "type": "Point"
+  },
+  "id": "12"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-117.051600, 32.555350],
+    "type": "Point"
+  },
+  "id": "13"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-119.664975, 35.671513],
+    "type": "Point"
+  },
+  "id": "14"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-118.391820, 33.909700],
+    "type": "Point"
+  },
+  "id": "15"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-80.366470, 25.784560],
+    "type": "Point"
+  },
+  "id": "16"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-122.504740, 37.735860],
+    "type": "Point"
+  },
+  "id": "17"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-121.6138915, 38.0283406],
+    "type": "Point"
+  },
+  "id": "18"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-122.253940, 38.184840],
+    "type": "Point"
+  },
+  "id": "19"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-121.877000, 37.658430],
+    "type": "Point"
+  },
+  "id": "20"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-121.927000, 37.710080],
+    "type": "Point"
+  },
+  "id": "21"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-122.031075, 37.977978],
+    "type": "Point"
+  },
+  "id": "22"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-80.782127, 8.537981],
+    "type": "Point"
+  },
+  "id": "23"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-76.995890, 38.851830],
+    "type": "Point"
+  },
+  "id": "24"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-56.169320, -34.915511],
+    "type": "Point"
+  },
+  "id": "25"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-80.263010, 26.116970],
+    "type": "Point"
+  },
+  "id": "26"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [55.270782, 25.204849],
+    "type": "Point"
+  },
+  "id": "27"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-106.282050, 40.731470],
+    "type": "Point"
+  },
+  "id": "28"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [12.371360, 51.339691],
+    "type": "Point"
+  },
+  "id": "29"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-71.619423, -33.045559],
+    "type": "Point"
+  },
+  "id": "30"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [51.539790, 25.288750],
+    "type": "Point"
+  },
+  "id": "31"
+}, {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "coordinates": [-56.164532, -34.901112],
+    "type": "Point"
+  },
+  "id": "32"
+}];
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiaWlnbiIsImEiOiJJVnFnVEtVIn0.wJaGnsHUuEUoSCXvbNO9uQ';
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/iign/cjnkd8riue1jf2rmmtx8sk94b',
+  style: 'mapbox://styles/mapbox/dark-v9',
   center: [-37.809, 5.217],
   minZoom: 1.2,
   zoom: 1.2,
-  'icon-allow-overlap': true
+  'icon-allow-overlap': false,
+  'text-allow-overlap': false,
+  'icon-ignore-placement': true
+});
+
+map.on('load', function () {
+
+  map.loadImage('/assets/images/pin@2x.png', function (error, image) {
+    if (error) throw error;
+
+    map.addImage('pin', image);
+
+    map.addLayer({
+      "id": "places",
+      "type": "symbol",
+      "source": {
+        "type": "geojson",
+        "data": {
+          "type": "FeatureCollection",
+          "features": places
+        }
+      },
+      "layout": {
+        "icon-image": "pin",
+        "icon-size": 0.5,
+        "icon-padding": 0,
+        "icon-anchor": "bottom"
+      }
+    });
+
+    map.on('mouseenter', 'places', function (e) {
+
+      var $listItem = $('.favorites__list-item[data-id=' + e.features[0].id + ']');
+      $listItem.addClass('active');
+      console.log($listItem);
+
+      console.log('cursor mouseover', e.features[0].id);
+
+      map.getCanvas().style.cursor = 'pointer';
+
+      var coordinates = e.features[0].geometry.coordinates.slice();
+      var description = e.features[0].properties.name;
+
+      console.log(e.features[0]);
+    });
+
+    map.on('mouseleave', 'places', function () {
+      map.getCanvas().style.cursor = '';
+      $('.favorites__list-item').removeClass('active');
+    });
+  });
 });
 
 // init controller

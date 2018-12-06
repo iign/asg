@@ -2,20 +2,20 @@
   <section class="footer-top band">
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col col-lg-4">
           <h5 class="footer__title footer__title--ln">Linkedin</h5>
           <div class="footer__stream footer__stream--linkedin">
             <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
             <script type="IN/CompanyProfile" data-id="10546134" data-format="inline" data-related="false"></script>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-lg-4">
           <h5 class="footer__title footer__title--tw">Twitter</h5>
           <div class="footer__stream js-twitter-stream">
             Loading...
           </div>
         </div>
-        <div class="col">
+        {{-- <div class="col col-4">
           <h5 class="footer__title footer__title--jobs">Jobs</h5>
           <div class="jobs">
 
@@ -40,7 +40,7 @@
             @endif
 
           </div>
-        </div>
+        </div> --}}
       </div>
 
       <div class="row">
@@ -72,7 +72,7 @@
             <a href="#services" class="footer__menu-link">Services</a>
             <a href="#projects" class="footer__menu-link">Projects</a>
             <a href="#about" class="footer__menu-link">About</a>
-            <a href="#footer" class="footer__menu-link">Jobs</a>
+            {{-- <a href="#footer" class="footer__menu-link">Jobs</a> --}}
             <span class="footer__menu-link footer__link-feature js-proposal">Request a proposal</span>
             <a href="#up" data-scroll class="footer__menu-link footer__up">Go up</a>
           </div>

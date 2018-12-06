@@ -16,11 +16,35 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    line-height: 1;
   }
 
   &__list-item {
     font-size: 11px;
     margin-bottom: 1px;
+    position: relative;
+    display: inline-block;
+
+    &:after {
+      transition: 200ms;
+      opacity: 0;
+      background-color: $color-brand-one;
+      bottom: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      position: absolute;
+      content: "";
+      display: block;
+    }
+
+    &.active {
+      &:after {
+        transition: 200ms;
+        height: 60%;
+        opacity: .5;
+      }
+    }
   }
 
   &__list-name {
