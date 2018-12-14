@@ -1,15 +1,11 @@
 <section class="band band-black">
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
-        <img class="asg" src="assets/images/asg.svg" alt="Archsourcing">
-      </div>
-      <div class="col-sm-8">
+      <div class="col-sm-12 centered">
         <div class="description">
-          <strong>ASG</strong> IS CUTTING HIGH-TECH FIRM THAT HELPS BUSY <em>ARCHITECTS</em> TO 
-          DEVELOP THEIR PROJECTS, DRAMATICALLY REDUCE COSTS AND STREAMLINE 
-          PRODUCTION WITH NEXT GENERATION USE OF <em>BIM</em> TECHNOLOGY WHILE 
-          ARCHITECTS FOCUS ON EXPANDING THEIR COMPANY AND BOOST QUALITY TIME.
+          ARCHSOURCING IS A CUTTING HIGH-TECH FIRM THAT HELPS <em>BUSY ARCHITECTS</em> 
+          TO DEVELOP THEIR PROJECTS, REDUCE COSTS AND STREAMLINE PRODUCTION WITH NEXT GENERATION USE OF 
+          <em>BIM TECHNOLOGY</em> WHILE ARCHITECTS FOCUS ON EXPANDING THEIR COMPANY. 
         </div>
       </div>
     </div>
