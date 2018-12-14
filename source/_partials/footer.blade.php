@@ -4,9 +4,33 @@
       <div class="row">
         <div class="col col-lg-4">
           <h5 class="footer__title footer__title--ln">Linkedin</h5>
-          <div class="footer__stream footer__stream--linkedin">
-            <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-            <script type="IN/CompanyProfile" data-id="10546134" data-format="inline" data-related="false"></script>
+          <div class="footer__stream footer__stream--linkedin stream-ln">
+            <div>
+              <img src="/assets/images/avatar.png" alt="Archsourcing" class="stream-ln__img">
+              <div class="stream-ln__titles">
+                <div class="stream-ln__title">Archsourcing</div>
+                <div class="stream-ln__subtitle">Your projects developed. You unplug.</div>
+              </div>
+
+              <div class="stream-ln__links">
+                <a href="https://www.linkedin.com/company/archsourcing/" class="stream-ln__btn">Follow</a>
+              </div>
+
+              <div class="stream-ln__text">
+                <p>
+                  We believe in work-life balance for architects. <br>
+                  We believe that architecture projects can be done quicker, smarter and better.
+                </p>
+                <p>
+                  /ASG is cutting high-tech firm that helps busy architects 
+                  to develop their projects, dramatically reduce costs and 
+                  streamline production with next generation use of BIM 
+                  technology while architects focus on expanding their 
+                  company and boost quality time. 
+                </p>
+              </div>
+
+            </div>
           </div>
         </div>
         <div class="col col-lg-4">
@@ -15,32 +39,22 @@
             Loading...
           </div>
         </div>
-        {{-- <div class="col col-4">
+        <div class="col col-lg-4">
           <h5 class="footer__title footer__title--jobs">Jobs</h5>
           <div class="jobs">
-
-            @php
-                var_dump($_GET);
-            @endphp
           
-            @if (isset($_GET['success']))
             <h4 class="jobs__title">
               We are always looking for talented people to join our team!
             </h4>
-            <form method="POST" action="/jobs.php" class="jobs__form">
+            <form enctype="multipart/form-data" method="POST" action="/jobs.php" class="jobs__form">
               <input type="email" name="jobs-email" id="jobs-email" class="jobs__input" placeholder="your e-mail" required>
               <input type="file" name="jobs-file" class="custom-file-input" required>
               <input style="position: absolute; top: 0; left: 0; pointer-events:none; opacity: 0;" type="text" name="lastname" class="form-input" placeholder="your lastname" tabindex="9999">
               <input type="submit" value="Send" class="jobs__btn">
             </form>
-            @else
-            <h4 class="jobs__title">
-              Thanks!
-            </h4>
-            @endif
 
           </div>
-        </div> --}}
+        </div>
       </div>
 
       <div class="row">
@@ -72,7 +86,7 @@
             <a href="#services" class="footer__menu-link">Services</a>
             <a href="#projects" class="footer__menu-link">Projects</a>
             <a href="#about" class="footer__menu-link">About</a>
-            {{-- <a href="#footer" class="footer__menu-link">Jobs</a> --}}
+            <a href="#footer" class="footer__menu-link">Jobs</a>
             <span class="footer__menu-link footer__link-feature js-proposal">Request a proposal</span>
             <a href="#up" data-scroll class="footer__menu-link footer__up">Go up</a>
           </div>

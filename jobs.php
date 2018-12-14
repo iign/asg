@@ -1,6 +1,7 @@
 <?php 
 
-if (empty($_POST['lastname']) && isset($_POST['jobs-file']) && isset($_POST['jobs-email'])) {
+
+if (empty($_POST['lastname']) && isset($_POST['jobs-email'])) {
   require_once 'vendor/autoload.php';
 
   // Create the Transport
@@ -12,9 +13,9 @@ if (empty($_POST['lastname']) && isset($_POST['jobs-file']) && isset($_POST['job
 
   $mailer = new Swift_Mailer($transport);
 
-  $message = (new Swift_Message('Proposal request'))
+  $message = (new Swift_Message('Job submission'))
     ->setFrom(['website@archsourcing.com' => '/ASG'])
-    ->setReplyTo([$email => $name])
+    ->setReplyTo([$email])
     ->setTo(['mercedes@archsourcing.com', 'andy@archsourcing.com']);
 
   if(is_uploaded_file($_FILES['jobs-file']['tmp_name'])) {
@@ -24,10 +25,10 @@ if (empty($_POST['lastname']) && isset($_POST['jobs-file']) && isset($_POST['job
   }
 
   $result = $mailer->send($message);
-  header("Location: /?success");
+  header("Location: /thank-you");
   
   
 }
 else {
-  die();
+  die('Access Forbidden: no fields set.');
 }

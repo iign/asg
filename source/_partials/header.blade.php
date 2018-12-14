@@ -30,9 +30,9 @@
         <li class="header__menu-item">
           <a href="#about" class="header__menu-link">About</a>
         </li>
-        {{-- <li class="header__menu-item">
+        <li class="header__menu-item">
           <a href="#footer" class="header__menu-link">Jobs</a>
-        </li> --}}
+        </li>
         <li class="header__menu-item">
           <button class="header__menu-link asg-btn js-proposal">Request a proposal</button>
         </li>
