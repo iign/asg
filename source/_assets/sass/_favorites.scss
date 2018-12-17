@@ -21,9 +21,10 @@
 
   &__list-item {
     font-size: 11px;
-    margin-bottom: 1px;
+    margin-bottom: 3px;
+    margin-bottom: 3.3px;
     position: relative;
-    display: inline-block;
+    display: table;
 
     &:after {
       transition: 200ms;
