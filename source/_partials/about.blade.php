@@ -31,7 +31,7 @@
           By using latest BIM technology tools, /ARCHSOURCING helps busy 
           architects to develop their projects, reduce costs and streamline 
           production while clients focus on expanding their company and boost quality time. 
-        </p>
+        </p> 
 
       </div>
       <div class="col-md-5">

@@ -3,7 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col col-lg-4">
-          <h5 class="footer__title footer__title--ln">Linkedin</h5>
+          <h5 class="footer__title footer__title--ln">
+            <a href="https://www.linkedin.com/company/archsourcing/">Linkedin</a>
+          </h5>
           <div class="footer__stream footer__stream--linkedin stream-ln">
             <div>
               <img src="/assets/images/avatar.png" alt="Archsourcing" class="stream-ln__img">
@@ -13,7 +15,7 @@
               </div>
 
               <div class="stream-ln__links">
-                <a href="https://www.linkedin.com/company/archsourcing/" class="stream-ln__btn">Follow</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/archsourcing/" class="stream-ln__btn">Follow</a>
               </div>
 
               <div class="stream-ln__text">
@@ -34,7 +36,9 @@
           </div>
         </div>
         <div class="col col-lg-4">
-          <h5 class="footer__title footer__title--tw">Twitter</h5>
+          <h5 class="footer__title footer__title--tw">
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/archsourcing">Twitter</a>
+          </h5>
           <div class="footer__stream js-twitter-stream">
             Loading...
           </div>
