@@ -11,9 +11,13 @@
   border-bottom: 10px solid $color-body;
   border-right: 5px solid $color-body;
   border-left: 5px solid $color-body;
-  padding: 30px;
+  padding: 12px;
   background: #7d7778;
   color: white;
+
+  @media (min-height: 630px) {
+    padding: 30px;
+  }
 
   &.active {
     display: block;
@@ -53,8 +57,11 @@
   }
 
   &__comment {
-    min-height: 260px;
+    min-height: 100px;
     resize: vertical;
+    @media (min-height: 630px) {
+      min-height: 260px;
+    }
   }
 
   .asg-btn {
