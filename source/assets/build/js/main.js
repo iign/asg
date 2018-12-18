@@ -13887,8 +13887,8 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/dark-v9',
   center: [-37.809, 5.217],
-  minZoom: 1.2,
-  zoom: 1.2,
+  minZoom: 0.9,
+  zoom: 0.9,
   'icon-allow-overlap': false,
   'text-allow-overlap': false,
   'icon-ignore-placement': true

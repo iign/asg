@@ -37,8 +37,13 @@
       }
     }
 
+
     &--ln {
       color: $color-brand-two;
+      a { 
+        color: $color-brand-two; 
+        text-decoration: none;
+      }
       @media ($desktop) {
         &:before {
           background-image: url('../../images/icon-ln.svg');
@@ -48,6 +53,10 @@
 
     &--tw {
       color: $color-brand-two;
+      a { 
+        color: $color-brand-two; 
+        text-decoration: none;
+      }
       @media ($desktop) {
         &:before {
           background-image: url('../../images/icon-tw.svg');
@@ -232,6 +241,13 @@
     line-height: 1.2;
     font-weight: normal;
     margin: 0 0 20px 0;
+    display: block;
+    text-decoration: none;
+    a {
+      display: block;
+      text-decoration: none;
+      color: unset;
+    }
   }
 
   &__input {
