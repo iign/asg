@@ -72,7 +72,14 @@
             <img class="icon-house" src="assets/images/icon-house.svg" alt="Headquarters">
           </div>
           <p>
-            Sinergia Design / Victor Haedo 2240 - Of.09 <br> Montevideo, Uruguay <br>
+            HQ <br>
+            World Trade Center Plaza Building <br>
+            Av. Dr. Luis Alberto de Herrera 1248, 11300 <br>
+            Sinergia - Suite B05 <br>
+            Montevideo, Uruguay
+          </p>
+          <p>
+            Montevideo l San Francisco l Los Angeles l Miami
           </p>
           <p>
             +1 310 598 2214 <br> hello@archsourcing.com
