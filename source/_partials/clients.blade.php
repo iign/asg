@@ -30,6 +30,20 @@
         </h4>
       </div>
     </div>
+    <div class="row client-list">
+      <div class="col-sm-3 client">
+        <div class="client__img" style="background-image: url(assets/images/client-mia.svg)"></div>
+      </div>
+      <div class="col-sm-3 client">
+        <div class="client__img" style="background-image: url(assets/images/client-unity.svg)"></div>
+      </div>
+      <div class="col-sm-3 client">
+        <div class="client__img" style="background-image: url(assets/images/client-clark.svg)"></div>
+      </div>
+      <div class="col-sm-3 client">
+        <div class="client__img" style="background-image: url(assets/images/client-radco.svg)"></div>
+      </div>
+    </div>
     <div class="row">
       <div class="col">
         <h3 class="band__title align-center">
@@ -38,28 +52,31 @@
       </div>
     </div>
     <div class="row client-list">
-      <div class="col-sm-4 client">
-        <div class="client__img client__img--engworks" style="background-image: url(assets/images/client-4.svg)"></div>
+      <div class="col-sm-3 client">
+        <div class="client__img client__img--engworks" style="background-image: url(assets/images/member-aia.svg)"></div>
       </div>
-      <div class="col-sm-4 client">
-        <div class="client__img client__img--lab" style="background-image: url(assets/images/client-5.svg)"></div>
+      <div class="col-sm-3 client">
+        <div class="client__img client__img--lab" style="background-image: url(assets/images/member-lab.svg)"></div>
       </div>
-      <div class="col-sm-4 client">
-        <div class="client__img client__img--bimorph" style="background-image: url(assets/images/client-6.svg)"></div>
+      <div class="col-sm-3 client">
+        <div class="client__img client__img--bimorph" style="background-image: url(assets/images/member-bimorph.svg)"></div>
+      </div>
+      <div class="col-sm-3 client">
+        <div class="client__img client__img--bimorph" style="background-image: url(assets/images/member-engworks.svg)"></div>
       </div>
     </div>
     <div class="row client-list">
       <div class="col-sm-3">
-        <div class="client__img client__img--ibm" style="background-image: url(assets/images/client-7.svg)"></div>
+        <div class="client__img client__img--ibm" style="background-image: url(assets/images/member-ibm.svg)"></div>
       </div>
       <div class="col-sm-3">
-        <div class="client__img client__img--ms" style="background-image: url(assets/images/client-8.svg)"></div>
+        <div class="client__img client__img--ms" style="background-image: url(assets/images/member-microsoft.svg)"></div>
       </div>
       <div class="col-sm-3">
-        <div class="client__img client__img--uy" style="background-image: url(assets/images/client-9.svg)"></div>
+        <div class="client__img client__img--uy" style="background-image: url(assets/images/member-uruguay-smart.svg)"></div>
       </div>
       <div class="col-sm-3">
-        <div class="client__img client__img--anii" style="background-image: url(assets/images/client-10.svg)"></div>
+        <div class="client__img client__img--anii" style="background-image: url(assets/images/member-anii.svg)"></div>
       </div>
     </div>
   </div>

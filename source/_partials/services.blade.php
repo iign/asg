@@ -5,7 +5,7 @@
           <h3 class="band__title">Services</h3>
       </div>
       <div class="col-md-6">
-        <a class="services__more" href="#">want to know more about our services?</a>
+        <span class="services__more js-proposal">want to know more about our services?</span>
       </div>
       
     </div>

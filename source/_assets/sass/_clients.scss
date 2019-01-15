@@ -23,19 +23,23 @@
 
   &__img {
     min-height: 86px;
-    max-width: 200px;
+    max-width: 120px;
     margin: 0 auto;
     width: 100%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
+    @media ($desktop) { 
+      max-width: 140px;
+    }
+
     &--ua { max-width: 144px; }
     &--ida { max-width: 180px; }
     &--engworks { max-width: 144px; }
     &--lab { max-width: 79px; }
     &--bimorph { max-width: 130px; }
-    &--ibm { max-width: 82px; }
+    &--ibm { max-width: 92px; }
     &--ms { max-width: 117px; }
     &--uy { max-width: 157px; }
     &--anii { max-width: 110px; }
