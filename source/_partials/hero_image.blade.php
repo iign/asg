@@ -166,8 +166,12 @@
     <path fill="#ebebeb" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M265 313.37l2.4-2.41-.11-36.97M280.79 319.23l-13.39-8.27M257.74 291.97l.96-.97-.01-5.75-.96.96.01 5.76zM255.67 290.78l2.05 1.19-.01-5.75-2.05-1.2.01 5.76z"/>
     <path fill="#ebebeb" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M255.66 285.04l2.05 1.2.98-.99-2.05-1.2-.98.99zM256.08 288.41l-.96.96.02 5.76.96-.97-.01-4.36.98-.98-.01-1.35M254.28 294.62l.84.51-.02-5.75-.84-.51.02 5.75z"/>
     <path fill="#ebebeb" stroke="#3d3c3d" stroke-miterlimit="10" stroke-width=".5" d="M254.26 288.88l.84.51 1.96-1.92-.83-.51-1.97 1.92z"/>
-    <path fill="none" stroke="#7d7778" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7" d="M1439.45 306.37l-582.66-.67-150-86.67"/>
-    <path fill="none" stroke="#7d7778" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7" d="M1442.45 321.37l-591.41-.68-159.59-92.99"/>
+    {{-- <path fill="none" stroke="#7d7778" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7" d="M1439.45 306.37l-582.66-.67-150-86.67"/> --}}
+    <path class="tube" d="M857.92,303.2a8.69,8.69,0,0,1-4.29-1.62l-143.9-84.51a1.49,1.49,0,0,0-1.21-.12l-.12.06a3.27,3.27,0,0,0-.78.3L539.57,296.16c-1.06.47-1.57,2-1.16,3.82.49,2.19,2.14,4,3.68,4a2.43,2.43,0,0,0,.58-.1l167-78.36,144,84.58a13.42,13.42,0,0,0,4.35,1.15h583.56v-8Z" 
+          style="fill:#7d7778;stroke:#3d3c3d;stroke-miterlimit:10;stroke-width:0.5px" class=""></path>
+    {{-- <path fill="none" stroke="#7d7778" stroke-linecap="round" stroke-miterlimit="10" stroke-width="7" d="M1442.45 321.37l-591.41-.68-159.59-92.99"/> --}}
+    <path class="tube" d="M856.44,316.39v.09l-.43,0c-1.64,0-3-1-4.25-1.77L722,238.62a1.49,1.49,0,0,0-1.21-.12,1.91,1.91,0,0,0-.49.26l-.29.13L305.42,434a8.23,8.23,0,0,1-3.83.8,8.68,8.68,0,0,1-4.28-1.62L191.37,370.93a1.49,1.49,0,0,0-1.21-.12c-1.21.38-2.91,2.92-2.78,4.66a2.93,2.93,0,0,0,1.08,2.26l108.77,64a13.63,13.63,0,0,0,5.69,1.23,15.36,15.36,0,0,0,6.42-1.63L722,247.1l129.37,76a15.86,15.86,0,0,0,5.1,1.36H1440v-8Z" 
+          style="fill:#7d7778;stroke:#3d3c3d;stroke-miterlimit:10;stroke-width:0.5px"/>
     <path fill="none" d="M.79.37h1439v661H.79z"/>
   </svg>
   
