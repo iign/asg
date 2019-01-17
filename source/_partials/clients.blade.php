@@ -10,24 +10,12 @@
     <div class="row client-list">
       <div class="col-sm-4 client">
         <div class="client__img" style="background-image: url(assets/images/client-1.svg)"></div>
-        <h4 class="client__name">
-          ARCHITECTURAL RECORD<br>
-          TOP 300 ARCHITECTURE FIRMS
-        </h4>
       </div>
       <div class="col-sm-4 client">
           <div class="client__img client__img--ua" style="background-image: url(assets/images/client-2.svg)"></div>
-        <h4 class="client__name">
-          GOLDEN NUGGET<br> 
-          AWARD WINNERS
-        </h4>
       </div>
       <div class="col-sm-4 client">
           <div class="client__img client__img--ida" style="background-image: url(assets/images/client-3.svg)"></div>
-        <h4 class="client__name">
-          DESIGNERS AND CREATORS<br>
-          OF GENERAL ELECTRIC OFFICES
-        </h4>
       </div>
     </div>
     <div class="row client-list">
