@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 if (empty($_POST['lastname']) && isset($_POST['jobs-email'])) {
@@ -16,9 +16,9 @@ if (empty($_POST['lastname']) && isset($_POST['jobs-email'])) {
   $message = (new Swift_Message('Job submission'))
     ->setFrom(['website@archsourcing.com' => '/ASG'])
     ->setReplyTo([$email])
-    ->setTo(['mercedes@archsourcing.com', 'andy@archsourcing.com']);
+    ->setTo(['mercedes@archsourcing.com', 'andy@archsourcing.com', 'gabriela@archsourcing.com']);
 
-  if(is_uploaded_file($_FILES['jobs-file']['tmp_name'])) {
+  if (is_uploaded_file($_FILES['jobs-file']['tmp_name'])) {
     $message->attach(
       Swift_Attachment::fromPath($_FILES['jobs-file']['tmp_name'])->setFilename($_FILES['jobs-file']['name'])
     );
@@ -26,9 +26,6 @@ if (empty($_POST['lastname']) && isset($_POST['jobs-email'])) {
 
   $result = $mailer->send($message);
   header("Location: /thank-you");
-  
-  
-}
-else {
+} else {
   die('Access Forbidden: no fields set.');
 }

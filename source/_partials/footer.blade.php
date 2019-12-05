@@ -24,11 +24,11 @@
                   We believe that architecture projects can be done quicker, smarter and better.
                 </p>
                 <p>
-                  /ASG is cutting high-tech firm that helps busy architects 
-                  to develop their projects, dramatically reduce costs and 
-                  streamline production with next generation use of BIM 
-                  technology while architects focus on expanding their 
-                  company and boost quality time. 
+                  /ASG is cutting high-tech firm that helps busy architects
+                  to develop their projects, dramatically reduce costs and
+                  streamline production with next generation use of BIM
+                  technology while architects focus on expanding their
+                  company and boost quality time.
                 </p>
               </div>
 
@@ -46,7 +46,7 @@
         <div class="col col-lg-4">
           <h5 class="footer__title footer__title--jobs">Jobs</h5>
           <div class="jobs">
-          
+
             <h4 class="jobs__title">
               We are always looking for talented people to join our team!
             </h4>
@@ -71,17 +71,20 @@
           <div class="icon-house-wrap">
             <img class="icon-house" src="assets/images/icon-house.svg" alt="Headquarters">
           </div>
-          <p>
-            HQ <br>
-            World Trade Center Plaza Building <br>
-            Av. Dr. Luis Alberto de Herrera 1248, 11300 <br>
+          <p class="font-weight-500">
+            <h3 class="footer__header">United States</h3>
+            Embarcadero 4 Embarcadero Center, <br>
+            Suite 1400, San Francisco, CA, 9411
+          </p>
+          <p class="font-weight-500">
+            <h3 class="footer__header">Latin America</h3>
+            World Trade Center<br>
+            Avenida Luis Alberto de Herrera 1248, 11300 <br>
             Sinergia - Suite B05 <br>
             Montevideo, Uruguay
           </p>
-          <p>
-            Montevideo l San Francisco l Los Angeles l Miami
-          </p>
-          <p>
+
+          <p class="footer__phone">
             +1 310 598 2214 <br> hello@archsourcing.com
           </p>
         </div>

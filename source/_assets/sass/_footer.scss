@@ -190,6 +190,16 @@
     }
     
   }
+
+  &__header {
+    color: $color-brand-one;
+    text-transform: uppercase;
+    margin: 20px 0 3px 0;
+  }
+
+  &__phone {
+    font-weight: 300;
+  }
 }
 
 .stream-item {
