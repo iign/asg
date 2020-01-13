@@ -78,9 +78,9 @@
           </p>
           <p class="font-weight-500">
             <h3 class="footer__header">Latin America</h3>
-            World Trade Center<br>
-            Avenida Luis Alberto de Herrera 1248, 11300 <br>
-            Sinergia - Suite B05 <br>
+            World Trade Center Montevideo Free Zone<br>
+            Avenida Luis Alberto de Herrera 1248, 11300<br>
+            Suites 205/212<br>
             Montevideo, Uruguay
           </p>
 
