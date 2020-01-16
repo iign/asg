@@ -79,7 +79,7 @@
           <p class="font-weight-500">
             <h3 class="footer__header">Latin America</h3>
             World Trade Center Montevideo Free Zone<br>
-            Avenida Luis Alberto de Herrera 1248, 11300<br>
+            Dr. Luis Bonavita, 11300<br>
             Suites 205/212<br>
             Montevideo, Uruguay
           </p>
