@@ -85,7 +85,7 @@
           </p>
 
           <p class="footer__phone">
-            +1 310 598 2214 <br> hello@archsourcing.com
+            +1 424 253 0774 <br> hello@archsourcing.com
           </p>
         </div>
       </div>
