@@ -1,0 +1,39 @@
+.covid {
+  position: relative;
+  width: 100%;
+  background-color: #DADADA;
+  color: #151515;
+  padding: 15px 30px 15px 0;
+  font-size: 0.9rem;
+  @media (min-width: 768px) {
+    font-size: 1rem;
+  }
+
+  button {
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+    padding: 0;
+    opacity: .85;
+    transition: 200ms;
+    display: none;
+    &:hover {
+      opacity: 1;
+    }
+    @media (min-width: 768px) {
+      display: block;
+    }
+
+    svg {
+      margin: 0 auto;
+    }
+  }
+}

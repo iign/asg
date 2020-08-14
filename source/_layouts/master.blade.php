@@ -30,6 +30,7 @@
   <body id="up">
        
     @include('_partials/header')
+    @include('_partials/covid')
     @include('_partials/hero')
     @include('_partials/struggle')
     @include('_partials/asg')
