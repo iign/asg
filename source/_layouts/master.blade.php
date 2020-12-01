@@ -2,6 +2,14 @@
 @include('_partials/montag')
 <html lang="en">
   <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-184214813-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-184214813-1');
+    </script>
     <title>{{ $page->siteName }}</title>
     <meta name="description" content="{{ $page->siteDescription }}">
     <meta name="keywords" content="Architecture, BIM, production, coordination, consulting, content development, visualization, modeling, construction, BEP, VR, render, animation">
