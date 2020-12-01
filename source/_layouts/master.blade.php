@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-@include('_partials/montag')
 <html lang="en">
   <head>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-184214813-1"></script>
